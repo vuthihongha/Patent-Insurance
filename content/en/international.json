@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "title": "International experience | Patent Insurance Strategy",
+    "description": "Patent insurance in China, the United States, the European Union and Japan: four models and the lessons for Vietnam."
+  },
+  "header": {
+    "kicker": "International experience",
+    "title": "4 models<br><em>1 lesson</em> for Vietnam",
+    "lead": "From State-led<br>to fully market-driven."
+  },
+  "spectrum": {
+    "kicker": "Role of the State",
+    "title": "Where each country <em>stands</em>",
+    "left": "State-led",
+    "right": "Market-driven",
+    "points": [
+      {
+        "id": "cn",
+        "name": "China",
+        "pos": 14,
+        "below": false
+      },
+      {
+        "id": "jp",
+        "name": "Japan",
+        "pos": 40,
+        "below": false
+      },
+      {
+        "id": "eu",
+        "name": "EU",
+        "pos": 62,
+        "below": true
+      },
+      {
+        "id": "us",
+        "name": "United States",
+        "pos": 90,
+        "below": false
+      }
+    ],
+    "vn": {
+      "name": "Vietnam (proposed)",
+      "pos": 30,
+      "note": "The State initiates, supports conditionally, then steps back."
+    }
+  },
+  "countriesTitle": "Each model in detail",
+  "countries": [
+    {
+      "id": "cn",
+      "name": "China",
+      "model": "State-guided · Market-operated · Local pilots",
+      "stats": [
+        {
+          "value": "4,818",
+          "label": "patents insured in Beijing"
+        },
+        {
+          "value": "472",
+          "label": "companies receiving premium support"
+        },
+        {
+          "value": "CNY 53 m",
+          "label": "in premium subsidies"
+        }
+      ],
+      "timeline": [
+        {
+          "year": "2010",
+          "text": "First product in Foshan: 100+ companies, 1,000+ patents"
+        },
+        {
+          "year": "2011–13",
+          "text": "PICC pilots in 27 cities with CNIPA"
+        },
+        {
+          "year": "2014",
+          "text": "2,496 patents of 744 companies insured"
+        },
+        {
+          "year": "2020",
+          "text": "Beijing pilot with public premium subsidies"
+        },
+        {
+          "year": "2021",
+          "text": "IP insurance written into the 14th Five-Year Plan"
+        }
+      ],
+      "chart": {
+        "title": "Share of patent insurance premiums by region (PICC, 2014)",
+        "items": [
+          {
+            "label": "Jiangsu",
+            "value": 25
+          },
+          {
+            "label": "Beijing",
+            "value": 18
+          },
+          {
+            "label": "Guangdong",
+            "value": 15
+          },
+          {
+            "label": "Hubei",
+            "value": 7
+          },
+          {
+            "label": "Other",
+            "value": 35
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Zhou Liquan, China Finance, no. 15/2023",
+          "url": ""
+        },
+        {
+          "label": "CNIPA & PICC, Theory and Practice of IP Insurance in China",
+          "url": ""
+        },
+        {
+          "label": "CNIPA (2015)",
+          "url": "https://www.cnipa.gov.cn/art/2015/12/2/art_410_134644.htm"
+        }
+      ]
+    },
+    {
+      "id": "us",
+      "name": "United States",
+      "model": "Pure market · Complex contracts · High premiums",
+      "stats": [
+        {
+          "value": "1–5%",
+          "label": "premium on insured value"
+        },
+        {
+          "value": "$0.5–10M",
+          "label": "typical insured value"
+        },
+        {
+          "value": "15%",
+          "label": "co-insurance (2010 example)"
+        }
+      ],
+      "timeline": [
+        {
+          "year": "~1985",
+          "text": "Emerged from disputes over general liability policies"
+        },
+        {
+          "year": "1987",
+          "text": "IPISC pioneers; Litigation Risk Management enters the market"
+        },
+        {
+          "year": "1990s",
+          "text": "Stand-alone products separate from CGL and D&O cover"
+        },
+        {
+          "year": "Today",
+          "text": "Enforcement, defence and infringement liability cover (AIG…)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lanjouw & Schankerman (2001, 2004)",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "name": "European Union",
+      "model": "Multi-level coordination · Voluntary · SME focus",
+      "stats": [
+        {
+          "value": "2007",
+          "label": "Denmark launches PatentEnforcer"
+        },
+        {
+          "value": "3+",
+          "label": "competing insurers in Denmark (2014)"
+        },
+        {
+          "value": "1 Jun 2023",
+          "label": "the Unified Patent Court (UPC) opens"
+        }
+      ],
+      "timeline": [
+        {
+          "year": "2002",
+          "text": "Commission orders the CJA report on litigation insurance"
+        },
+        {
+          "year": "2008",
+          "text": "Voluntary model chosen at EU level"
+        },
+        {
+          "year": "2015",
+          "text": "Single Market Strategy supports SMEs' use of IP"
+        },
+        {
+          "year": "2018",
+          "text": "COSME co-funds litigation insurance for SMEs"
+        },
+        {
+          "year": "2023",
+          "text": "UPC lowers the cost of cross-border protection"
+        }
+      ],
+      "sources": [
+        {
+          "label": "European Commission, Making IPR work for SMEs (2014)",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "jp",
+      "name": "Japan",
+      "model": "Selective support · Focus on overseas markets",
+      "stats": [
+        {
+          "value": "24/92",
+          "label": "infringement cases with damages over JPY 100 m (2014–2020)"
+        },
+        {
+          "value": "1/2",
+          "label": "of overseas litigation premiums paid by the JPO for SMEs"
+        },
+        {
+          "value": "2016",
+          "label": "overseas IP litigation insurance"
+        }
+      ],
+      "timeline": [
+        {
+          "year": "1994",
+          "text": "Litigation cost insurance introduced"
+        },
+        {
+          "year": "2003",
+          "text": "NEXI insures royalties from foreign licensees"
+        },
+        {
+          "year": "2016",
+          "text": "Overseas IP litigation insurance for SMEs (Sompo, Tokio Marine…)"
+        },
+        {
+          "year": "Today",
+          "text": "Government reinsurance through the Ministry of Economy, Trade and Industry"
+        }
+      ],
+      "sources": [
+        {
+          "label": "WIPO, Unlocking IP-backed Financing: Japan’s Journey",
+          "url": "https://www.wipo.int/edocs/pubdocs/en/wipo-pub-rn2025-2-en-country-perspectives-japan-s-journey.pdf"
+        },
+        {
+          "label": "JPO, via EU Business in Japan (2016)",
+          "url": "https://www.eubusinessinjapan.eu/library/news/overseas-ip-litigation-insurance-scheme-smes"
+        }
+      ]
+    }
+  ],
+  "lessons": {
+    "kicker": "Lessons for Vietnam",
+    "title": "Three <em>takeaways</em>",
+    "items": [
+      {
+        "title": "Think holistically",
+        "body": "Tie patent insurance to national IP and innovation policy."
+      },
+      {
+        "title": "State opens the door",
+        "body": "Early pilots and premium support, conditional and time-limited."
+      },
+      {
+        "title": "Connect to finance",
+        "body": "Link with IP-backed loans, credit guarantees and valuation."
+      }
+    ]
+  }
+}

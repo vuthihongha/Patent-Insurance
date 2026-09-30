@@ -1,0 +1,2 @@
+<%# Citation line for a figure. Pass `s` = { label, url }. %>
+<% if (typeof s !== 'undefined' && s) { %><span class="src"><%= t.sourceLabel %>: <% if (s.url) { %><a href="<%= s.url %>" target="_blank" rel="noopener"><%= s.label %><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a><% } else { %><%= s.label %><% } %></span><% } %>

@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "title": "Khung pháp lý | Chiến lược Bảo hiểm Sáng chế",
+    "description": "Thực trạng pháp luật Việt Nam về bảo hiểm sáng chế, rào cản và kiến nghị hoàn thiện theo 5 lĩnh vực pháp luật."
+  },
+  "header": {
+    "kicker": "Khung pháp lý",
+    "title": "Một <em>khoảng trống</em><br>cần được lấp đầy",
+    "lead": "Thị trường Việt Nam chưa có<br>sản phẩm bảo hiểm chuyên biệt cho sáng chế."
+  },
+  "status": {
+    "kicker": "Thực trạng",
+    "title": "Nằm giữa <em>6 lĩnh vực</em> pháp luật",
+    "legend": {
+      "ok": "Có nền tảng",
+      "gap": "Còn thiếu"
+    },
+    "items": [
+      {
+        "area": "Sở hữu trí tuệ",
+        "law": "Luật SHTT sửa đổi 2025 · NĐ 100/2026",
+        "state": "gap",
+        "note": "Dự thảo từng có “sản phẩm bảo hiểm” nhưng không được thông qua."
+      },
+      {
+        "area": "Kinh doanh bảo hiểm",
+        "law": "Luật KDBH 2022 (sđ 2025) · NĐ 46/2023",
+        "state": "ok",
+        "note": "Cho phép thiết kế sản phẩm phi nhân thọ mới."
+      },
+      {
+        "area": "Dân sự",
+        "law": "Bộ luật Dân sự 2015",
+        "state": "ok",
+        "note": "Quyền tài sản được dùng để thế chấp, bảo đảm."
+      },
+      {
+        "area": "Tài chính",
+        "law": "Luật Giá 2023 · TT 37/2024/TT-BTC",
+        "state": "gap",
+        "note": "Chưa có hướng dẫn riêng về định giá sáng chế."
+      },
+      {
+        "area": "Dữ liệu",
+        "law": "Luật Dữ liệu 2024",
+        "state": "ok",
+        "note": "Quyền đối với dữ liệu là quyền tài sản."
+      },
+      {
+        "area": "Đổi mới sáng tạo",
+        "law": "Luật KH, CN & ĐMST 2025 · Luật Công nghệ cao 2025",
+        "state": "ok",
+        "note": "Cơ chế chấp nhận rủi ro trong đổi mới sáng tạo."
+      }
+    ]
+  },
+  "barriers": {
+    "kicker": "Rào cản",
+    "title": "Năm <em>nguyên nhân</em>",
+    "items": [
+      {
+        "icon": "scale",
+        "title": "Pháp luật",
+        "body": "Chưa có cơ chế tài chính và chia sẻ rủi ro cho sáng chế; dự thảo về sản phẩm bảo hiểm không được thông qua."
+      },
+      {
+        "icon": "network",
+        "title": "Thị trường",
+        "body": "Thương mại hóa sáng chế và các tổ chức trung gian như định giá, môi giới còn yếu."
+      },
+      {
+        "icon": "database",
+        "title": "Dữ liệu",
+        "body": "Dữ liệu về rủi ro sáng chế phân tán, thiếu liên thông."
+      },
+      {
+        "icon": "handshake",
+        "title": "Năng lực",
+        "body": "Doanh nghiệp bảo hiểm thiếu kinh nghiệm; doanh nghiệp còn hạn chế nhận thức."
+      },
+      {
+        "icon": "file",
+        "title": "Đặc thù sáng chế",
+        "body": "Giá trị sáng chế khó dự đoán, khó định lượng."
+      }
+    ]
+  },
+  "proposals": {
+    "kicker": "Kiến nghị",
+    "title": "Hoàn thiện <em>5 lĩnh vực</em> pháp luật",
+    "items": [
+      {
+        "area": "Pháp luật dân sự",
+        "points": [
+          "Sửa Điều 115: làm rõ bản chất quyền tài sản",
+          "Bổ sung Điều 303: kiểm soát tư pháp khi xử lý tài sản bảo đảm giá trị lớn",
+          "Sửa Điều 306: định giá độc lập tại thời điểm xử lý tài sản"
+        ]
+      },
+      {
+        "area": "Pháp luật SHTT",
+        "points": [
+          "Ghi nhận cơ chế hỗ trợ, bảo lãnh vay vốn bằng quyền SHTT",
+          "Xác định các sản phẩm cơ bản: trách nhiệm xâm phạm, cấp phép, chi phí tố tụng",
+          "Khuyến khích tham gia; cân nhắc bắt buộc với khai thác có giá trị lớn"
+        ]
+      },
+      {
+        "area": "Pháp luật tài chính, thương mại",
+        "points": [
+          "Hướng dẫn định giá sáng chế theo chuẩn IVS 210",
+          "Đánh giá phạm vi quyền, thời hạn bảo hộ, tuổi thọ hữu ích, rủi ro pháp lý"
+        ]
+      },
+      {
+        "area": "Pháp luật dữ liệu",
+        "points": [
+          "Làm rõ đối tượng giao dịch của thị trường dữ liệu",
+          "Phân cấp quyền tài sản theo vòng đời dữ liệu",
+          "Cơ chế đăng ký quyền tài sản dữ liệu"
+        ]
+      },
+      {
+        "area": "Pháp luật đổi mới sáng tạo",
+        "points": [
+          "Bảo đảm thống nhất, đồng bộ",
+          "Cắt giảm thủ tục không cần thiết",
+          "Quản lý dựa trên rủi ro"
+        ]
+      }
+    ]
+  },
+  "valuation": {
+    "kicker": "Định giá sáng chế",
+    "title": "Việt Nam và <em>chuẩn mực quốc tế</em>",
+    "head": [
+      "Tiêu chí",
+      "Thông tư 37/2024",
+      "IVS 210"
+    ],
+    "rows": [
+      {
+        "label": "Phân loại tài sản",
+        "vn": "Nhóm chung “tài sản vô hình”",
+        "ivs": "Chi tiết theo từng quyền và phạm vi quyền"
+      },
+      {
+        "label": "Dữ liệu thị trường",
+        "vn": "Nguyên tắc chung",
+        "ivs": "Minh bạch, kiểm chứng được; ưu tiên phí bản quyền, hợp đồng li-xăng"
+      },
+      {
+        "label": "Cách tiếp cận thu nhập",
+        "vn": "Nguyên tắc chung",
+        "ivs": "Relief-from-royalty, excess earnings, MPEEM, with-and-without"
+      },
+      {
+        "label": "Tuổi thọ hữu ích",
+        "vn": "Mức khái quát",
+        "ivs": "Phân tích pháp lý, kinh tế, công nghệ, cạnh tranh"
+      },
+      {
+        "label": "Rủi ro pháp lý",
+        "vn": "Chưa có hướng dẫn",
+        "ivs": "Bắt buộc: mất hiệu lực, tranh chấp, phụ thuộc quyền bên thứ ba"
+      }
+    ]
+  },
+  "mandatory": {
+    "kicker": "Tự nguyện hay bắt buộc?",
+    "title": "Đi <em>từng bước</em>",
+    "steps": [
+      {
+        "label": "Hiện tại",
+        "body": "Tự nguyện, Nhà nước hỗ trợ một phần phí"
+      },
+      {
+        "label": "Khi thị trường đủ lớn",
+        "body": "Bán bắt buộc với ngành rủi ro cao"
+      }
+    ]
+  }
+}

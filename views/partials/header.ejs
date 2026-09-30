@@ -1,0 +1,37 @@
+<%
+  const navKeys = ['about', 'insurance', 'strategy', 'international', 'legal'];
+  const otherLang = lang === 'vi' ? 'en' : 'vi';
+%>
+<header class="site-header" data-header>
+  <div class="container header-inner">
+    <a class="brand" href="<%= pathFor('home') %>">
+      <img src="/images/mark.svg" alt="" width="32" height="32">
+      <span class="brand-text">
+        <span class="brand-name"><%= t.siteName %></span>
+        <span class="brand-sub"><%= t.footer.school %></span>
+      </span>
+    </a>
+
+    <nav class="nav" id="site-nav" aria-label="<%= t.menu %>" data-nav>
+      <ul class="nav-list">
+        <% navKeys.forEach((key) => { %>
+          <li>
+            <a class="nav-link" href="<%= pathFor(key) %>" <% if (page.key === key) { %>aria-current="page"<% } %>><%= t.nav[key] %></a>
+          </li>
+        <% }) %>
+      </ul>
+      <div class="nav-actions">
+        <a class="lang-switch" href="<%= alternates[otherLang] %>" hreflang="<%= otherLang %>" lang="<%= otherLang %>" aria-label="<%= otherLang.toUpperCase() %> – <%= t.switchLangLabel %>">
+          <svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg><%= otherLang.toUpperCase() %>
+        </a>
+        <a class="btn btn-light btn-sm" href="<%= pathFor('tool') %>"><%= t.nav.tool %></a>
+      </div>
+    </nav>
+
+    <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" data-nav-toggle
+            data-label-open="<%= t.menu %>" data-label-close="<%= t.closeMenu %>" aria-label="<%= t.menu %>">
+      <svg class="icon icon-open" aria-hidden="true"><use href="#i-menu"/></svg>
+      <svg class="icon icon-close" aria-hidden="true"><use href="#i-x"/></svg>
+    </button>
+  </div>
+</header>

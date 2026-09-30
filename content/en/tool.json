@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "title": "Self-assessment | Patent Insurance Strategy",
+    "description": "Eight questions to find out which patent insurance your business needs and how ready you are for the pilot."
+  },
+  "header": {
+    "kicker": "Tool",
+    "title": "Which <em>insurance</em><br>does your business need?",
+    "meta": [
+      "8 questions",
+      "~2 minutes",
+      "Anonymous"
+    ]
+  },
+  "ui": {
+    "question": "Question",
+    "next": "Continue",
+    "back": "Back",
+    "finish": "See results",
+    "restart": "Start over",
+    "print": "Save results (PDF)",
+    "required": "Please choose an option.",
+    "noscript": "This tool needs JavaScript to calculate results. Please enable JavaScript in your browser.",
+    "count": "assessments completed"
+  },
+  "questions": [
+    {
+      "id": "type",
+      "title": "Which <em>group</em> are you in?",
+      "options": [
+        {
+          "id": "st",
+          "label": "Science & technology enterprise"
+        },
+        {
+          "id": "hitech",
+          "label": "High-tech enterprise"
+        },
+        {
+          "id": "startup",
+          "label": "Innovative start-up"
+        },
+        {
+          "id": "sme",
+          "label": "Other SME"
+        },
+        {
+          "id": "institute",
+          "label": "Research institute or university"
+        },
+        {
+          "id": "individual",
+          "label": "Individual inventor"
+        }
+      ]
+    },
+    {
+      "id": "patent",
+      "title": "Your <em>patent</em> status?",
+      "options": [
+        {
+          "id": "none",
+          "label": "No patents yet"
+        },
+        {
+          "id": "preparing",
+          "label": "Preparing an application"
+        },
+        {
+          "id": "pending",
+          "label": "Filed, awaiting grant"
+        },
+        {
+          "id": "granted",
+          "label": "Patent granted"
+        }
+      ]
+    },
+    {
+      "id": "use",
+      "title": "How do you <em>use</em> the technology?",
+      "options": [
+        {
+          "id": "produce",
+          "label": "We manufacture and sell"
+        },
+        {
+          "id": "license",
+          "label": "We license it to others"
+        },
+        {
+          "id": "acquire",
+          "label": "We license it in"
+        },
+        {
+          "id": "notyet",
+          "label": "Not in use yet"
+        }
+      ]
+    },
+    {
+      "id": "market",
+      "title": "Your <em>main</em> market?",
+      "options": [
+        {
+          "id": "domestic",
+          "label": "Vietnam only"
+        },
+        {
+          "id": "export",
+          "label": "We export"
+        }
+      ]
+    },
+    {
+      "id": "dispute",
+      "title": "Have you faced an IP <em>dispute?</em>",
+      "options": [
+        {
+          "id": "never",
+          "label": "Never"
+        },
+        {
+          "id": "accused",
+          "label": "Accused of infringement"
+        },
+        {
+          "id": "infringed",
+          "label": "Our rights were infringed"
+        },
+        {
+          "id": "ongoing",
+          "label": "Dispute in progress"
+        }
+      ]
+    },
+    {
+      "id": "sector",
+      "title": "Your <em>technology</em> field?",
+      "options": [
+        {
+          "id": "semi",
+          "label": "Semiconductors"
+        },
+        {
+          "id": "quantum",
+          "label": "Quantum technology"
+        },
+        {
+          "id": "energy",
+          "label": "Renewable energy"
+        },
+        {
+          "id": "digital",
+          "label": "AI and digital"
+        },
+        {
+          "id": "bio",
+          "label": "Pharma and biotech"
+        },
+        {
+          "id": "other",
+          "label": "Other"
+        }
+      ]
+    },
+    {
+      "id": "city",
+      "title": "Where are you <em>based?</em>",
+      "options": [
+        {
+          "id": "hanoi",
+          "label": "Hanoi"
+        },
+        {
+          "id": "hcmc",
+          "label": "Ho Chi Minh City"
+        },
+        {
+          "id": "other",
+          "label": "Elsewhere"
+        }
+      ]
+    },
+    {
+      "id": "budget",
+      "title": "Could you fund <em>legal costs</em> in a dispute?",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Yes"
+        },
+        {
+          "id": "hard",
+          "label": "With difficulty"
+        },
+        {
+          "id": "no",
+          "label": "No"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "kicker": "Results",
+    "readiness": "Pilot readiness",
+    "levels": {
+      "high": {
+        "title": "Strong pilot candidate",
+        "body": "You match the criteria for the market-launch phase well."
+      },
+      "mid": {
+        "title": "Good potential",
+        "body": "A good fit, with a few conditions still to meet."
+      },
+      "low": {
+        "title": "More groundwork needed",
+        "body": "Build your IP foundations before joining."
+      }
+    },
+    "productsTitle": "Insurance that fits you",
+    "fit": {
+      "high": "Strong fit",
+      "mid": "Good fit",
+      "low": "Weak fit"
+    },
+    "phase": "Phase",
+    "products": {
+      "application": {
+        "name": "Application insurance",
+        "body": "Covers filing costs if the patent is not granted.",
+        "phase": "1 – 2"
+      },
+      "legal": {
+        "name": "Legal expenses insurance",
+        "body": "Pays attorney and litigation costs in disputes.",
+        "phase": "1 – 2"
+      },
+      "liability": {
+        "name": "Infringement liability",
+        "body": "Protects against unintentional infringement claims.",
+        "phase": "3"
+      }
+    },
+    "tipsTitle": "Suggestions",
+    "tips": {
+      "certify": "Consider S&T enterprise certification. Decree 268/2025 widened the innovation criteria.",
+      "file": "Search and file a patent application to secure your intellectual asset.",
+      "exploit": "Plan commercialisation: manufacture or license.",
+      "city": "The pilot starts in Hanoi and HCMC, then expands to other provinces.",
+      "support": "Watch for premium support policies for innovative businesses.",
+      "export": "Disputes abroad are costly, so prioritise legal expenses insurance.",
+      "fto": "Run a freedom-to-operate (FTO) review before launch.",
+      "priority": "Your field is a priority core technology."
+    },
+    "disclaimer": "For reference only. Not legal or insurance advice."
+  }
+}

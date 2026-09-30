@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "title": "Privacy policy | Patent Insurance Strategy",
+    "description": "How this website collects, uses and protects personal data under Decree 13/2023/ND-CP."
+  },
+  "header": {
+    "kicker": "Privacy policy",
+    "title": "Protecting <em>your data</em>",
+    "lead": "In line with Decree 13/2023/ND-CP<br>on personal data protection."
+  },
+  "sections": [
+    {
+      "title": "Data we collect",
+      "items": [
+        "Self-assessment: only your choices and score, no names, emails or IP addresses.",
+        "Interest form: organisation, contact person, email, type, field, topics and the message you provide."
+      ]
+    },
+    {
+      "title": "Purpose",
+      "items": [
+        "Contacting you about the research and the proposed patent insurance pilot.",
+        "Compiling anonymous statistics for academic research."
+      ]
+    },
+    {
+      "title": "Sharing and retention",
+      "items": [
+        "We never sell or share data with third parties for commercial purposes.",
+        "Data is kept until the research ends or until you ask us to delete it."
+      ]
+    },
+    {
+      "title": "Your rights",
+      "items": [
+        "To know, access, correct or request deletion of your data.",
+        "To withdraw consent at any time.",
+        "Send requests to: vuthihongha.work@gmail.com."
+      ]
+    },
+    {
+      "title": "Data controller",
+      "items": [
+        "Vu Thi Hong Ha, LL.B., author of the research, Hanoi Law University."
+      ]
+    }
+  ]
+}

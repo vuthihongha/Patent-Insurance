@@ -1,0 +1,103 @@
+{
+  "siteName": "Patent Insurance Strategy",
+  "siteShort": "PIS",
+  "siteTagline": "Sharing patent risk to grow Vietnam's innovation ecosystem",
+  "skipToContent": "Skip to main content",
+  "menu": "Menu",
+  "closeMenu": "Close menu",
+  "switchLang": "Tiếng Việt",
+  "switchLangLabel": "Chuyển sang tiếng Việt",
+  "nav": {
+    "home": "Home",
+    "insurance": "Patent insurance",
+    "strategy": "Strategy",
+    "international": "International experience",
+    "legal": "Legal framework",
+    "tool": "Self-assessment",
+    "experts": "Expert insights",
+    "library": "Library",
+    "about": "About",
+    "privacy": "Privacy policy"
+  },
+  "cta": {
+    "tool": "Assess your business",
+    "strategy": "Explore the strategy",
+    "readMore": "Read more",
+    "backHome": "Back to home"
+  },
+  "footer": {
+    "about": "The applied output of a student research project on patent insurance.",
+    "school": "Hanoi Law University",
+    "authorLabel": "Author",
+    "author": "Vu Thi Hong Ha, LL.B.",
+    "advisorLabel": "Supervisor",
+    "advisor": "Do Tien Dat, LL.M.",
+    "contactLabel": "Contact",
+    "explore": "Explore",
+    "disclaimer": "For reference only. Not legal or insurance advice.",
+    "rights": "Content copyright belongs to the research author."
+  },
+  "comingSoon": {
+    "title": "This page is under construction",
+    "body": "Content is being finalised. See you soon."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The link may have changed or no longer exists."
+  },
+  "onThisPage": "On this page",
+  "sourceLabel": "Source",
+  "interest": {
+    "kicker": "Register interest",
+    "title": "Join the <em>pilot</em>",
+    "lead": "Leave your details if your organisation is interested in patent insurance. The research team will get in touch when relevant activities come up.",
+    "org": "Organisation",
+    "contact": "Contact person",
+    "email": "Email",
+    "type": "Organisation type",
+    "sector": "Field",
+    "choose": "Choose…",
+    "types": [
+      "S&T enterprise",
+      "High-tech enterprise",
+      "Innovative start-up",
+      "SME",
+      "Insurer",
+      "Research institute or university",
+      "Government agency",
+      "Other"
+    ],
+    "sectors": [
+      "Semiconductors",
+      "Quantum technology",
+      "Renewable energy",
+      "AI and digital",
+      "Pharma and biotech",
+      "Insurance and finance",
+      "Other"
+    ],
+    "topicsLabel": "You are interested in",
+    "topics": [
+      "Joining the pilot",
+      "Receiving the research summary",
+      "Professional exchange"
+    ],
+    "message": "Message (optional)",
+    "consent": "I agree that the research team may store and use these details to contact me about the research, under the",
+    "consentLink": "Privacy policy",
+    "submit": "Send",
+    "sending": "Sending…",
+    "required": "Required",
+    "optional": "optional",
+    "errors": {
+      "org": "Please enter your organisation name.",
+      "email": "Please enter a valid email, e.g. name@company.com.",
+      "consent": "Please accept the privacy policy to send the form.",
+      "server": "Could not send. Please try again in a few minutes."
+    },
+    "success": "Thank you. Your registration has been received.",
+    "fromTool": "Your self-assessment result will be attached (anonymous, without detailed answers)."
+  },
+  "updated": "Data updated to September 2026",
+  "privacyLink": "Privacy policy"
+}

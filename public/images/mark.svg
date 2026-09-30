@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Patent Insurance Strategy">
+  <!-- "( · )": the invention, a single point of light, held between two arcs of cover.
+       Pure geometry, no pictogram, in the manner of a fine-jewellery house mark. -->
+  <defs>
+    <radialGradient id="m-core" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c7d6f2"/>
+    </radialGradient>
+  </defs>
+  <!-- two arcs of the same circle, opened at top and bottom -->
+  <path d="M22.4 6.9A27 27 0 0 0 22.4 57.1" fill="none" stroke="#eef3fc" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M41.6 6.9A27 27 0 0 1 41.6 57.1" fill="none" stroke="#eef3fc" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- a hairline inner orbit -->
+  <circle cx="32" cy="32" r="16" fill="none" stroke="#eef3fc" stroke-opacity=".32" stroke-width=".8"/>
+  <!-- the invention -->
+  <circle cx="32" cy="32" r="4.4" fill="url(#m-core)"/>
+</svg>

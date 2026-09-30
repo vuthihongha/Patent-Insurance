@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "Về dự án | Chiến lược Bảo hiểm Sáng chế",
+    "description": "Website là sản phẩm ứng dụng của đề tài nghiên cứu khoa học sinh viên Trường Đại học Luật Hà Nội về bảo hiểm sáng chế."
+  },
+  "header": {
+    "kicker": "Giới thiệu đề tài",
+    "title": "Từ nghiên cứu<br>đến <em>ứng dụng</em>",
+    "lead": "Đưa kết quả nghiên cứu đến gần doanh nghiệp,<br>nhà quản lý và cộng đồng đổi mới sáng tạo."
+  },
+  "project": {
+    "label": "Đề tài",
+    "title": "Những vấn đề pháp lý đối với phát triển bảo hiểm sáng chế nhằm thúc đẩy hệ sinh thái đổi mới sáng tạo tại Việt Nam",
+    "meta": [
+      "Khoa học xã hội · Pháp luật",
+      "Giải thưởng KH&CN dành cho sinh viên 2026",
+      "Trường Đại học Luật Hà Nội"
+    ]
+  },
+  "people": [
+    {
+      "role": "Tác giả",
+      "name": "CN. Vũ Thị Hồng Hà",
+      "initials": "HH"
+    },
+    {
+      "role": "Người hướng dẫn",
+      "name": "ThS. Đỗ Tiến Đạt",
+      "initials": "ĐĐ"
+    }
+  ],
+  "mission": {
+    "kicker": "Sản phẩm ứng dụng",
+    "title": "Giá trị <em>ứng dụng</em> của website",
+    "items": [
+      {
+        "icon": "file",
+        "title": "Phổ biến kiến thức",
+        "body": "Giải thích bảo hiểm sáng chế ngắn gọn, song ngữ, dễ tiếp cận."
+      },
+      {
+        "icon": "check",
+        "title": "Hỗ trợ ra quyết định",
+        "body": "Công cụ tự đánh giá giúp doanh nghiệp chọn sản phẩm phù hợp."
+      },
+      {
+        "icon": "network",
+        "title": "Kết nối thí điểm",
+        "body": "Tập hợp nhu cầu thực tế để đề xuất chính sách thí điểm."
+      }
+    ]
+  },
+  "usage": {
+    "label": "lượt doanh nghiệp đã tự đánh giá",
+    "note": "Dữ liệu ẩn danh, chỉ dùng cho mục đích nghiên cứu."
+  },
+  "contact": {
+    "title": "Cùng <em>trao đổi</em> với nhóm nghiên cứu",
+    "body": "Doanh nghiệp, doanh nghiệp bảo hiểm hoặc nhà quản lý quan tâm đến thí điểm, vui lòng liên hệ qua email.",
+    "button": "Gửi email"
+  },
+  "poster": {
+    "problem": {
+      "label": "Đặt vấn đề",
+      "items": [
+        "Số đơn đăng ký sáng chế tăng nhanh, nhưng tỷ lệ thương mại hóa tài sản trí tuệ mới đạt khoảng 0,1%.",
+        "Rủi ro pháp lý và chi phí bảo vệ, thực thi quyền cao khiến doanh nghiệp e ngại khai thác sáng chế.",
+        "Bảo hiểm sáng chế đã được triển khai tại nhiều quốc gia nhưng Việt Nam chưa có cơ sở pháp lý rõ ràng."
+      ]
+    },
+    "goals": {
+      "label": "Mục tiêu nghiên cứu",
+      "items": [
+        "Làm rõ cơ sở lý luận về sáng chế, rủi ro sáng chế và bảo hiểm sáng chế.",
+        "Chứng minh sự cần thiết và tính khả thi của bảo hiểm sáng chế tại Việt Nam.",
+        "Rút ra bài học từ Trung Quốc, Hoa Kỳ, Liên minh châu Âu và Nhật Bản.",
+        "Đề xuất kiến nghị pháp luật và chiến lược phát triển theo lộ trình."
+      ]
+    },
+    "questions": {
+      "label": "Câu hỏi nghiên cứu",
+      "items": [
+        "Bảo hiểm sáng chế là gì và dựa trên cơ sở nào để phát triển?",
+        "Thực tiễn và cách tiếp cận pháp luật của quốc tế và Việt Nam về bảo hiểm sáng chế ra sao?",
+        "Việt Nam cần mô hình và cơ chế pháp lý nào để phát triển bảo hiểm sáng chế, thúc đẩy hệ sinh thái đổi mới sáng tạo?"
+      ]
+    },
+    "structure": {
+      "label": "Kết cấu đề tài",
+      "items": [
+        {
+          "ch": "Chương 1",
+          "text": "Cơ sở lý luận về phát triển bảo hiểm sáng chế"
+        },
+        {
+          "ch": "Chương 2",
+          "text": "Bối cảnh chính trị, pháp lý và thực tiễn tại Việt Nam"
+        },
+        {
+          "ch": "Chương 3",
+          "text": "Kinh nghiệm quốc tế",
+          "flags": [
+            "cn",
+            "us",
+            "eu",
+            "jp"
+          ]
+        },
+        {
+          "ch": "Chương 4",
+          "text": "Định hướng, kiến nghị hoàn thiện pháp luật và chiến lược phát triển"
+        }
+      ]
+    },
+    "methods": {
+      "label": "Phương pháp nghiên cứu",
+      "items": [
+        "Nghiên cứu luật học quy phạm",
+        "Logic – lịch sử",
+        "Quy nạp, tổng – phân – hợp",
+        "Phân tích – tổng hợp",
+        "So sánh luật"
+      ],
+      "interview": {
+        "label": "Phỏng vấn sâu chuyên gia",
+        "flags": [
+          "vn",
+          "jp",
+          "cn",
+          "tw"
+        ]
+      }
+    },
+    "results": {
+      "label": "Kiến nghị đưa ra",
+      "groups": [
+        {
+          "title": "Hoàn thiện pháp luật",
+          "items": [
+            "Dân sự",
+            "Sở hữu trí tuệ",
+            "Tài chính, thương mại",
+            "Dữ liệu",
+            "Đổi mới sáng tạo"
+          ],
+          "link": "legal"
+        },
+        {
+          "title": "Chiến lược phát triển",
+          "items": [
+            "5 trụ cột chính sách",
+            "Lộ trình 3 giai đoạn",
+            "Thí điểm tại Hà Nội và TP. Hồ Chí Minh"
+          ],
+          "link": "strategy"
+        }
+      ]
+    }
+  },
+  "cite": {
+    "label": "Cách trích dẫn đề tài",
+    "text": "Vũ Thị Hồng Hà (2026), Những vấn đề pháp lý đối với phát triển bảo hiểm sáng chế nhằm thúc đẩy hệ sinh thái đổi mới sáng tạo tại Việt Nam, Đề tài nghiên cứu khoa học sinh viên, Trường Đại học Luật Hà Nội.",
+    "copy": "Sao chép",
+    "copied": "Đã sao chép"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "siteName": "Chiến lược Bảo hiểm Sáng chế",
+  "siteShort": "BHSC",
+  "siteTagline": "Chia sẻ rủi ro sáng chế, thúc đẩy hệ sinh thái đổi mới sáng tạo",
+  "skipToContent": "Bỏ qua, đến nội dung chính",
+  "menu": "Menu",
+  "closeMenu": "Đóng menu",
+  "switchLang": "English",
+  "switchLangLabel": "Switch to English",
+  "nav": {
+    "home": "Trang chủ",
+    "insurance": "Bảo hiểm sáng chế",
+    "strategy": "Chiến lược",
+    "international": "Kinh nghiệm quốc tế",
+    "legal": "Khung pháp lý",
+    "tool": "Tự đánh giá",
+    "experts": "Góc chuyên gia",
+    "library": "Thư viện",
+    "about": "Giới thiệu",
+    "privacy": "Chính sách bảo mật"
+  },
+  "cta": {
+    "tool": "Tự đánh giá doanh nghiệp",
+    "strategy": "Khám phá chiến lược",
+    "readMore": "Xem chi tiết",
+    "backHome": "Về trang chủ"
+  },
+  "footer": {
+    "about": "Sản phẩm ứng dụng của đề tài nghiên cứu khoa học sinh viên về bảo hiểm sáng chế.",
+    "school": "Trường Đại học Luật Hà Nội",
+    "authorLabel": "Tác giả",
+    "author": "CN. Vũ Thị Hồng Hà",
+    "advisorLabel": "Người hướng dẫn",
+    "advisor": "ThS. Đỗ Tiến Đạt",
+    "contactLabel": "Liên hệ",
+    "explore": "Khám phá",
+    "disclaimer": "Nội dung mang tính tham khảo, không phải tư vấn pháp lý hay tư vấn bảo hiểm.",
+    "rights": "Bản quyền nội dung thuộc tác giả đề tài."
+  },
+  "comingSoon": {
+    "title": "Trang đang được xây dựng",
+    "body": "Nội dung đang được hoàn thiện. Hẹn gặp lại bạn sớm."
+  },
+  "notFound": {
+    "title": "Không tìm thấy trang",
+    "body": "Đường dẫn có thể đã thay đổi hoặc không tồn tại."
+  },
+  "onThisPage": "Trên trang này",
+  "sourceLabel": "Nguồn",
+  "interest": {
+    "kicker": "Đăng ký quan tâm",
+    "title": "Cùng tham gia <em>thí điểm</em>",
+    "lead": "Để lại thông tin nếu tổ chức của bạn quan tâm đến bảo hiểm sáng chế. Nhóm nghiên cứu sẽ liên hệ khi có hoạt động phù hợp.",
+    "org": "Tên tổ chức, doanh nghiệp",
+    "contact": "Người liên hệ",
+    "email": "Email",
+    "type": "Loại hình",
+    "sector": "Lĩnh vực",
+    "choose": "Chọn…",
+    "types": [
+      "Doanh nghiệp KH&CN",
+      "Doanh nghiệp công nghệ cao",
+      "Startup đổi mới sáng tạo",
+      "Doanh nghiệp nhỏ và vừa",
+      "Doanh nghiệp bảo hiểm",
+      "Viện nghiên cứu, trường đại học",
+      "Cơ quan quản lý",
+      "Khác"
+    ],
+    "sectors": [
+      "Bán dẫn",
+      "Công nghệ lượng tử",
+      "Năng lượng tái tạo",
+      "AI, công nghệ số",
+      "Y dược, công nghệ sinh học",
+      "Bảo hiểm, tài chính",
+      "Khác"
+    ],
+    "topicsLabel": "Bạn quan tâm đến",
+    "topics": [
+      "Tham gia thí điểm",
+      "Nhận bản tóm tắt đề tài",
+      "Trao đổi chuyên môn"
+    ],
+    "message": "Lời nhắn (không bắt buộc)",
+    "consent": "Tôi đồng ý để nhóm nghiên cứu lưu và sử dụng thông tin trên nhằm liên hệ về đề tài, theo",
+    "consentLink": "Chính sách bảo mật",
+    "submit": "Gửi đăng ký",
+    "sending": "Đang gửi…",
+    "required": "Bắt buộc",
+    "optional": "không bắt buộc",
+    "errors": {
+      "org": "Vui lòng nhập tên tổ chức.",
+      "email": "Email chưa đúng định dạng, ví dụ: ten@congty.vn.",
+      "consent": "Vui lòng đồng ý với chính sách bảo mật để gửi.",
+      "server": "Chưa gửi được. Vui lòng thử lại sau ít phút."
+    },
+    "success": "Đã nhận đăng ký của bạn. Cảm ơn bạn đã quan tâm đến đề tài.",
+    "fromTool": "Kết quả tự đánh giá của bạn sẽ được gửi kèm (ẩn danh, không gồm câu trả lời chi tiết)."
+  },
+  "updated": "Số liệu cập nhật đến tháng 9/2026",
+  "privacyLink": "Chính sách bảo mật"
+}

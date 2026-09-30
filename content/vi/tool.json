@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "title": "Tự đánh giá | Chiến lược Bảo hiểm Sáng chế",
+    "description": "8 câu hỏi để biết doanh nghiệp cần loại bảo hiểm sáng chế nào và mức độ sẵn sàng tham gia thí điểm."
+  },
+  "header": {
+    "kicker": "Công cụ",
+    "title": "Doanh nghiệp của bạn cần<br><em>loại bảo hiểm</em> nào?",
+    "meta": [
+      "8 câu hỏi",
+      "~2 phút",
+      "Ẩn danh"
+    ]
+  },
+  "ui": {
+    "question": "Câu",
+    "next": "Tiếp tục",
+    "back": "Quay lại",
+    "finish": "Xem kết quả",
+    "restart": "Làm lại",
+    "print": "Lưu kết quả (PDF)",
+    "required": "Vui lòng chọn một phương án.",
+    "noscript": "Công cụ cần JavaScript để tính kết quả. Vui lòng bật JavaScript trong trình duyệt.",
+    "count": "lượt đánh giá đã thực hiện"
+  },
+  "questions": [
+    {
+      "id": "type",
+      "title": "Bạn thuộc nhóm <em>chủ thể</em> nào?",
+      "options": [
+        {
+          "id": "st",
+          "label": "Doanh nghiệp khoa học và công nghệ"
+        },
+        {
+          "id": "hitech",
+          "label": "Doanh nghiệp công nghệ cao"
+        },
+        {
+          "id": "startup",
+          "label": "Startup đổi mới sáng tạo"
+        },
+        {
+          "id": "sme",
+          "label": "Doanh nghiệp nhỏ và vừa khác"
+        },
+        {
+          "id": "institute",
+          "label": "Viện nghiên cứu, trường đại học"
+        },
+        {
+          "id": "individual",
+          "label": "Nhà sáng chế cá nhân"
+        }
+      ]
+    },
+    {
+      "id": "patent",
+      "title": "Tình trạng <em>sáng chế</em> của bạn?",
+      "options": [
+        {
+          "id": "none",
+          "label": "Chưa có sáng chế"
+        },
+        {
+          "id": "preparing",
+          "label": "Đang chuẩn bị nộp đơn"
+        },
+        {
+          "id": "pending",
+          "label": "Đã nộp đơn, đang chờ cấp"
+        },
+        {
+          "id": "granted",
+          "label": "Đã được cấp văn bằng bảo hộ"
+        }
+      ]
+    },
+    {
+      "id": "use",
+      "title": "Bạn đang <em>khai thác</em> công nghệ theo cách nào?",
+      "options": [
+        {
+          "id": "produce",
+          "label": "Tự sản xuất, kinh doanh"
+        },
+        {
+          "id": "license",
+          "label": "Chuyển giao quyền sử dụng (li-xăng)"
+        },
+        {
+          "id": "acquire",
+          "label": "Nhận chuyển giao công nghệ"
+        },
+        {
+          "id": "notyet",
+          "label": "Chưa đưa vào khai thác"
+        }
+      ]
+    },
+    {
+      "id": "market",
+      "title": "Thị trường <em>chính</em> của bạn?",
+      "options": [
+        {
+          "id": "domestic",
+          "label": "Trong nước"
+        },
+        {
+          "id": "export",
+          "label": "Có hoạt động xuất khẩu"
+        }
+      ]
+    },
+    {
+      "id": "dispute",
+      "title": "Bạn đã từng gặp <em>tranh chấp</em> SHTT?",
+      "options": [
+        {
+          "id": "never",
+          "label": "Chưa từng"
+        },
+        {
+          "id": "accused",
+          "label": "Từng bị cáo buộc xâm phạm"
+        },
+        {
+          "id": "infringed",
+          "label": "Từng bị bên khác xâm phạm quyền"
+        },
+        {
+          "id": "ongoing",
+          "label": "Đang có tranh chấp"
+        }
+      ]
+    },
+    {
+      "id": "sector",
+      "title": "Lĩnh vực <em>công nghệ</em> của bạn?",
+      "options": [
+        {
+          "id": "semi",
+          "label": "Bán dẫn"
+        },
+        {
+          "id": "quantum",
+          "label": "Công nghệ lượng tử"
+        },
+        {
+          "id": "energy",
+          "label": "Năng lượng tái tạo"
+        },
+        {
+          "id": "digital",
+          "label": "AI, công nghệ số"
+        },
+        {
+          "id": "bio",
+          "label": "Y dược, công nghệ sinh học"
+        },
+        {
+          "id": "other",
+          "label": "Lĩnh vực khác"
+        }
+      ]
+    },
+    {
+      "id": "city",
+      "title": "Bạn hoạt động <em>ở đâu?</em>",
+      "options": [
+        {
+          "id": "hanoi",
+          "label": "Hà Nội"
+        },
+        {
+          "id": "hcmc",
+          "label": "TP. Hồ Chí Minh"
+        },
+        {
+          "id": "other",
+          "label": "Địa phương khác"
+        }
+      ]
+    },
+    {
+      "id": "budget",
+      "title": "Khi phát sinh tranh chấp, bạn có tự chi trả được <em>chi phí pháp lý?</em>",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Đủ khả năng"
+        },
+        {
+          "id": "hard",
+          "label": "Khó khăn"
+        },
+        {
+          "id": "no",
+          "label": "Không đủ khả năng"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "kicker": "Kết quả",
+    "readiness": "Mức sẵn sàng tham gia thí điểm",
+    "levels": {
+      "high": {
+        "title": "Ứng viên phù hợp cho thí điểm",
+        "body": "Doanh nghiệp đáp ứng tốt tiêu chí của giai đoạn khởi động thị trường."
+      },
+      "mid": {
+        "title": "Có tiềm năng",
+        "body": "Phù hợp, cần hoàn thiện thêm một vài điều kiện."
+      },
+      "low": {
+        "title": "Cần chuẩn bị thêm",
+        "body": "Nên xây dựng nền tảng sở hữu trí tuệ trước khi tham gia."
+      }
+    },
+    "productsTitle": "Sản phẩm bảo hiểm phù hợp",
+    "fit": {
+      "high": "Rất phù hợp",
+      "mid": "Phù hợp",
+      "low": "Ít phù hợp"
+    },
+    "phase": "Giai đoạn",
+    "products": {
+      "application": {
+        "name": "Bảo hiểm cấp phép",
+        "body": "Bù đắp chi phí nếu đơn không được cấp văn bằng.",
+        "phase": "1 – 2"
+      },
+      "legal": {
+        "name": "Bảo hiểm chi phí pháp lý",
+        "body": "Chi trả luật sư, án phí khi khởi kiện hoặc bị kiện.",
+        "phase": "1 – 2"
+      },
+      "liability": {
+        "name": "Bảo hiểm trách nhiệm xâm phạm",
+        "body": "Chi trả khi bị cáo buộc xâm phạm ngoài ý muốn.",
+        "phase": "3"
+      }
+    },
+    "tipsTitle": "Gợi ý cho bạn",
+    "tips": {
+      "certify": "Cân nhắc đăng ký chứng nhận doanh nghiệp KH&CN. Nghị định 268/2025 đã mở rộng tiêu chí đổi mới sáng tạo.",
+      "file": "Tra cứu và nộp đơn đăng ký sáng chế để xác lập tài sản trí tuệ.",
+      "exploit": "Xây dựng kế hoạch thương mại hóa: tự sản xuất hoặc cấp phép.",
+      "city": "Thí điểm bắt đầu tại Hà Nội và TP.HCM, sau đó nhân rộng ra các địa phương khác.",
+      "support": "Theo dõi chính sách hỗ trợ phí bảo hiểm cho doanh nghiệp đổi mới sáng tạo.",
+      "export": "Tranh chấp ở nước ngoài rất tốn kém. Hãy ưu tiên bảo hiểm chi phí pháp lý.",
+      "fto": "Rà soát tự do khai thác (FTO) trước khi đưa sản phẩm ra thị trường.",
+      "priority": "Lĩnh vực của bạn thuộc nhóm công nghệ lõi được ưu tiên."
+    },
+    "disclaimer": "Kết quả mang tính tham khảo, không phải tư vấn pháp lý hay tư vấn bảo hiểm."
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "title": "Chiến lược | Chiến lược Bảo hiểm Sáng chế",
+    "description": "Lộ trình 3 giai đoạn và 5 trụ cột phát triển bảo hiểm sáng chế tại Việt Nam."
+  },
+  "header": {
+    "eyebrow": "Chiến lược",
+    "title": "5 trụ cột<br><em>3 giai đoạn</em>",
+    "lead": "Lộ trình dài hạn để hình thành<br>thị trường bảo hiểm sáng chế tại Việt Nam."
+  },
+  "toc": [
+    {
+      "id": "muc-tieu",
+      "label": "Mục tiêu"
+    },
+    {
+      "id": "tru-cot-1",
+      "label": "Lộ trình sản phẩm"
+    },
+    {
+      "id": "tru-cot-2",
+      "label": "Thí điểm"
+    },
+    {
+      "id": "tru-cot-3",
+      "label": "Hạ tầng"
+    },
+    {
+      "id": "tru-cot-4",
+      "label": "Tài chính"
+    },
+    {
+      "id": "tru-cot-5",
+      "label": "Giám sát & KPI"
+    }
+  ],
+  "goals": {
+    "title": "Ba <em>chính sách</em> cốt lõi",
+    "items": [
+      {
+        "title": "Phân tán rủi ro",
+        "body": "Doanh nghiệp yên tâm đầu tư nghiên cứu và phát triển."
+      },
+      {
+        "title": "Tạo lập thị trường",
+        "body": "Sản phẩm phù hợp thực tiễn Việt Nam."
+      },
+      {
+        "title": "Hoàn thiện hệ sinh thái",
+        "body": "Thúc đẩy thương mại hóa sáng chế."
+      }
+    ]
+  },
+  "pillarLabel": "Trụ cột",
+  "p1": {
+    "id": "tru-cot-1",
+    "title": "Lộ trình <em>sản phẩm</em>",
+    "lead": "Đi từ đơn giản đến chuyên sâu, theo mức độ trưởng thành của thị trường.",
+    "phases": [
+      {
+        "num": "01",
+        "tab": "Giai đoạn 1",
+        "name": "Khởi động",
+        "products": [
+          "Bảo hiểm cấp phép",
+          "Bảo hiểm thực thi quyền"
+        ],
+        "points": [
+          "Tháo gỡ hai điểm nghẽn: xác lập quyền và bảo vệ quyền",
+          "Loại trừ hành vi cố ý xâm phạm và gian lận"
+        ]
+      },
+      {
+        "num": "02",
+        "tab": "Giai đoạn 2",
+        "name": "Củng cố",
+        "products": [
+          "Mở rộng phạm vi",
+          "Nâng mức bảo vệ"
+        ],
+        "points": [
+          "Doanh nghiệp có danh mục sáng chế ổn định",
+          "Chuẩn hóa hợp đồng và quy trình bồi thường"
+        ]
+      },
+      {
+        "num": "03",
+        "tab": "Giai đoạn 3",
+        "name": "Phát triển chiều sâu",
+        "products": [
+          "Bảo hiểm trách nhiệm xâm phạm",
+          "Bảo lãnh khoản vay thế chấp bằng sáng chế",
+          "Tài chính hóa tài sản trí tuệ"
+        ],
+        "points": [
+          "Cần hệ thống định giá sáng chế và dữ liệu thị trường"
+        ]
+      }
+    ],
+    "criteriaTitle": "Tiêu chí chuyển giai đoạn",
+    "criteria": [
+      "Hợp đồng được chuẩn hóa",
+      "Tích lũy đủ vụ việc thực thi được bảo hiểm",
+      "Doanh nghiệp bảo hiểm có dữ liệu rủi ro",
+      "Thị trường chấp nhận sản phẩm"
+    ]
+  },
+  "p2": {
+    "id": "tru-cot-2",
+    "title": "Thí điểm <em>có kiểm soát</em>",
+    "lead": "Đúng đối tượng, đúng địa bàn, hạn chế rủi ro hệ thống.",
+    "blocks": [
+      {
+        "icon": "building",
+        "title": "Đối tượng tham gia",
+        "body": "Doanh nghiệp KH&CN, doanh nghiệp công nghệ cao, có hoạt động R&D và sở hữu sáng chế."
+      },
+      {
+        "icon": "handshake",
+        "title": "Doanh nghiệp bảo hiểm",
+        "body": "Khu vực tư nhân thiết kế sản phẩm; Nhà nước hỗ trợ qua đồng bảo hiểm, tái bảo hiểm."
+      }
+    ],
+    "cities": [
+      {
+        "name": "Hà Nội",
+        "value": "9.088 tỷ đồng",
+        "fact": "Chi cho khoa học – công nghệ, đổi mới sáng tạo và chuyển đổi số, chiếm 4% tổng chi ngân sách địa phương",
+        "source": {
+          "label": "Lệ Thanh (12/2025), số liệu Sở Tài chính Hà Nội",
+          "url": ""
+        },
+        "label": "Ngân sách năm 2026"
+      },
+      {
+        "name": "TP. Hồ Chí Minh",
+        "value": "12.700+ tỷ đồng",
+        "fact": "Chi cho khoa học – công nghệ; thành phố xác định 2026 là năm tăng tốc đổi mới sáng tạo",
+        "source": {
+          "label": "Cổng TTĐT TP. Hồ Chí Minh (01/2026)",
+          "url": "https://tphcm.chinhphu.vn/tphcm-danh-hon-12700-ty-dong-cho-khoa-hoc-cong-nghe-nam-2026-101260114150731419.htm"
+        },
+        "label": "Ngân sách năm 2026"
+      }
+    ]
+  },
+  "p3": {
+    "id": "tru-cot-3",
+    "title": "Hạ tầng & <em>tổ chức trung gian</em>",
+    "lead": "Nền tảng cho định giá, thẩm định rủi ro và giải quyết bồi thường.",
+    "items": [
+      {
+        "icon": "database",
+        "title": "Dữ liệu sáng chế",
+        "body": "Tình trạng pháp lý, lịch sử cấp phép, tranh chấp, thực thi."
+      },
+      {
+        "icon": "network",
+        "title": "Tổ chức trung gian",
+        "body": "Định giá, giám định thiệt hại, tư vấn pháp lý, sàn giao dịch."
+      },
+      {
+        "icon": "link",
+        "title": "Kết nối liên thông",
+        "body": "Nhà nước, doanh nghiệp bảo hiểm, doanh nghiệp, viện – trường."
+      }
+    ]
+  },
+  "p4": {
+    "id": "tru-cot-4",
+    "title": "Tài chính & <em>chia sẻ rủi ro</em>",
+    "lead": "Hỗ trợ có điều kiện để kích hoạt thị trường, không bao cấp kéo dài.",
+    "steps": [
+      {
+        "label": "Kích hoạt",
+        "body": "Hỗ trợ một phần phí bảo hiểm"
+      },
+      {
+        "label": "Chia sẻ rủi ro",
+        "body": "Quỹ ĐMST, quỹ KH&CN cùng gánh rủi ro"
+      },
+      {
+        "label": "Đầu tư nền tảng",
+        "body": "Dữ liệu, chuẩn nghiệp vụ, nhân lực"
+      },
+      {
+        "label": "Giảm dần hỗ trợ",
+        "body": "Thị trường tự vận hành bền vững"
+      }
+    ]
+  },
+  "p5": {
+    "id": "tru-cot-5",
+    "title": "Giám sát & <em>KPI</em>",
+    "lead": "Chuyển từ tư duy “chi phí đăng ký” sang “đầu tư vào tài sản trí tuệ có bảo đảm”.",
+    "sectors": [
+      "Lượng tử",
+      "Bán dẫn",
+      "Năng lượng tái tạo",
+      "Khu công nghệ cao"
+    ],
+    "kpiCaption": "Hệ thống KPI ba tầng",
+    "kpis": [
+      {
+        "tier": "Đầu vào",
+        "items": [
+          "Số hợp đồng được ký kết",
+          "Tỷ lệ doanh nghiệp tham gia",
+          "Mức phí được hỗ trợ"
+        ]
+      },
+      {
+        "tier": "Đầu ra",
+        "items": [
+          "Số vụ thực thi quyền được hỗ trợ",
+          "Số sáng chế được duy trì, thương mại hóa"
+        ]
+      },
+      {
+        "tier": "Tác động",
+        "items": [
+          "Mức giảm rủi ro tài chính do tranh chấp",
+          "Mức tăng niềm tin của doanh nghiệp"
+        ]
+      }
+    ]
+  },
+  "next": {
+    "title": "Sẵn sàng tham gia <em>thí điểm?</em>"
+  }
+}

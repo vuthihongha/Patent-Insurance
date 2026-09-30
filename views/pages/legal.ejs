@@ -1,0 +1,124 @@
+<%- include('../partials/head') %>
+<%- include('../partials/header') %>
+
+<main id="main">
+  <section class="page-hero" aria-labelledby="page-title">
+    <canvas class="page-canvas" data-page-scene data-word="LEGAL" aria-hidden="true"></canvas>
+    <div class="container narrow center-text">
+      <p class="kicker"><%= c.header.kicker %></p>
+      <h1 id="page-title" class="display display-sm"><%- c.header.title %></h1>
+      <p class="hero-lead"><%- c.header.lead %></p>
+    </div>
+  </section>
+
+  <!-- Status map -->
+  <section class="section section-tight" aria-labelledby="status-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="kicker"><%= c.status.kicker %></p>
+        <h2 id="status-title" class="h2"><%- c.status.title %></h2>
+      </header>
+      <p class="legend">
+        <span class="status-pill is-ok"><%= c.status.legend.ok %></span>
+        <span class="status-pill is-gap"><%= c.status.legend.gap %></span>
+      </p>
+      <ul class="cards cards-3">
+        <% c.status.items.forEach((it) => { %>
+          <li class="card glass law-card reveal is-<%= it.state %>">
+            <div class="law-top">
+              <h3 class="h3"><%= it.area %></h3>
+              <span class="status-pill is-<%= it.state %>"><%= c.status.legend[it.state] %></span>
+            </div>
+            <p class="law-name"><%= it.law %></p>
+            <p class="muted"><%= it.note %></p>
+          </li>
+        <% }) %>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Barriers: bento grid (2 wide cards, then 3) -->
+  <section class="section section-tight" aria-labelledby="barriers-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="kicker"><%= c.barriers.kicker %></p>
+        <h2 id="barriers-title" class="h2"><%- c.barriers.title %></h2>
+      </header>
+      <ol class="bento">
+        <% c.barriers.items.forEach((b, i) => { %>
+          <li class="bento-card glass reveal <%= i < 2 ? 'is-wide' : '' %>">
+            <div class="bento-top">
+              <span class="bento-n">0<%= i + 1 %></span>
+              <span class="card-icon" aria-hidden="true"><svg class="icon"><use href="#i-<%= b.icon %>"/></svg></span>
+            </div>
+            <h3 class="bento-title"><%= b.title %></h3>
+            <p class="muted"><%= b.body %></p>
+          </li>
+        <% }) %>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Proposals -->
+  <section class="section section-glow" aria-labelledby="proposals-title">
+    <div class="glow glow-band" aria-hidden="true"></div>
+    <div class="container narrow">
+      <header class="section-head reveal">
+        <p class="kicker"><%= c.proposals.kicker %></p>
+        <h2 id="proposals-title" class="h2"><%- c.proposals.title %></h2>
+      </header>
+      <div class="accordion">
+        <% c.proposals.items.forEach((p, i) => { %>
+          <details class="acc glass reveal" <% if (i === 0) { %>open<% } %>>
+            <summary><span class="acc-num">0<%= i + 1 %></span><span class="acc-q"><%= p.area %></span><span class="acc-icon" aria-hidden="true"></span></summary>
+            <ul class="dotlist acc-a">
+              <% p.points.forEach((pt) => { %><li><%= pt %></li><% }) %>
+            </ul>
+          </details>
+        <% }) %>
+      </div>
+    </div>
+  </section>
+
+  <!-- Valuation comparison -->
+  <section class="section" aria-labelledby="valuation-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="kicker"><%= c.valuation.kicker %></p>
+        <h2 id="valuation-title" class="h2"><%- c.valuation.title %></h2>
+      </header>
+      <div class="compare glass reveal" role="region" aria-labelledby="valuation-title" tabindex="0">
+        <table class="compare-table compare-2">
+          <thead>
+            <tr><% c.valuation.head.forEach((h, i) => { %><% if (i === 0) { %><td></td><% } else { %><th scope="col" class="<%= i === 2 ? 'is-hl' : '' %>"><%= h %></th><% } %><% }) %></tr>
+          </thead>
+          <tbody>
+            <% c.valuation.rows.forEach((r) => { %>
+              <tr><th scope="row"><%= r.label %></th><td><%= r.vn %></td><td class="is-hl"><%= r.ivs %></td></tr>
+            <% }) %>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Voluntary → semi-mandatory -->
+  <section class="section" aria-labelledby="mandatory-title">
+    <div class="container">
+      <div class="cta-band reveal">
+        <div class="glow glow-cta" aria-hidden="true"></div>
+        <p class="kicker"><%= c.mandatory.kicker %></p>
+        <h2 id="mandatory-title" class="h2"><%- c.mandatory.title %></h2>
+        <ol class="step-pair">
+          <% c.mandatory.steps.forEach((s, i) => { %>
+            <li><span class="step-pair-label"><%= s.label %></span><span class="step-pair-body"><%= s.body %></span></li>
+            <% if (i === 0) { %><li class="step-pair-arrow" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg></li><% } %>
+          <% }) %>
+        </ol>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="/js/page-scene.js" defer></script>
+<%- include('../partials/footer') %>

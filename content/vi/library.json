@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "title": "Thư viện | Chiến lược Bảo hiểm Sáng chế",
+    "description": "Thuật ngữ song ngữ Việt – Anh và văn bản pháp lý về bảo hiểm sáng chế, sở hữu trí tuệ, đổi mới sáng tạo."
+  },
+  "header": {
+    "kicker": "Thư viện",
+    "title": "Thuật ngữ & <em>văn bản</em>",
+    "lead": "Tra cứu nhanh, song ngữ Việt – Anh."
+  },
+  "glossary": {
+    "kicker": "Thuật ngữ",
+    "title": "Từ điển <em>bảo hiểm sáng chế</em>",
+    "search": "Tìm thuật ngữ…",
+    "searchLabel": "Tìm thuật ngữ",
+    "empty": "Không tìm thấy thuật ngữ phù hợp.",
+    "items": [
+      {
+        "term": "Bảo hiểm sáng chế",
+        "alt": "Patent insurance",
+        "def": "Cơ chế chuyển giao và phân tán rủi ro đối với sáng chế."
+      },
+      {
+        "term": "Rủi ro sáng chế",
+        "alt": "Patent risk",
+        "def": "Rủi ro phát sinh khi xác lập, duy trì, thực thi và khai thác quyền sáng chế."
+      },
+      {
+        "term": "Bảo hiểm cấp phép",
+        "alt": "Patent application insurance",
+        "def": "Bù chi phí nộp đơn nếu đơn không được cấp văn bằng."
+      },
+      {
+        "term": "Bảo hiểm thực thi quyền",
+        "alt": "Enforcement insurance",
+        "def": "Chi trả chi phí khởi kiện bên xâm phạm sáng chế của mình."
+      },
+      {
+        "term": "Bảo hiểm phòng vệ",
+        "alt": "Defence insurance",
+        "def": "Chi trả chi phí bảo vệ khi bị cáo buộc xâm phạm."
+      },
+      {
+        "term": "Bảo hiểm trách nhiệm xâm phạm",
+        "alt": "Infringement liability insurance",
+        "def": "Chi trả chi phí và tiền bồi thường khi vô tình xâm phạm."
+      },
+      {
+        "term": "Bảo hiểm chi phí pháp lý",
+        "alt": "Legal expenses insurance (LEI)",
+        "def": "Bảo đảm tài chính cho luật sư và tố tụng khi tranh chấp."
+      },
+      {
+        "term": "Đồng bảo hiểm",
+        "alt": "Co-insurance",
+        "def": "Người được bảo hiểm tự chịu một tỷ lệ tổn thất."
+      },
+      {
+        "term": "Tái bảo hiểm",
+        "alt": "Reinsurance",
+        "def": "Doanh nghiệp bảo hiểm chuyển một phần rủi ro cho bên khác."
+      },
+      {
+        "term": "Mức khấu trừ",
+        "alt": "Deductible",
+        "def": "Khoản tổn thất người được bảo hiểm tự chi trả trước."
+      },
+      {
+        "term": "Tự do khai thác",
+        "alt": "Freedom to operate (FTO)",
+        "def": "Rà soát để bảo đảm sản phẩm không xâm phạm sáng chế của người khác."
+      },
+      {
+        "term": "Chủ thể không thực hành sáng chế",
+        "alt": "Non-practising entity (NPE)",
+        "def": "Bên nắm sáng chế chủ yếu để khởi kiện, không sản xuất."
+      },
+      {
+        "term": "Li-xăng",
+        "alt": "Licence",
+        "def": "Hợp đồng cho phép bên khác sử dụng sáng chế."
+      },
+      {
+        "term": "Tài sản bảo đảm",
+        "alt": "Collateral",
+        "def": "Tài sản, kể cả quyền sáng chế, dùng để bảo đảm khoản vay."
+      },
+      {
+        "term": "Thương mại hóa",
+        "alt": "Commercialisation",
+        "def": "Đưa sáng chế vào sản xuất, kinh doanh để tạo giá trị kinh tế."
+      },
+      {
+        "term": "Hệ sinh thái đổi mới sáng tạo",
+        "alt": "Innovation ecosystem",
+        "def": "Mạng lưới chủ thể cùng tạo lập, bảo vệ và khai thác tri thức."
+      },
+      {
+        "term": "IVS 210",
+        "alt": "International Valuation Standard 210",
+        "def": "Chuẩn mực quốc tế về thẩm định giá tài sản vô hình."
+      }
+    ]
+  },
+  "docs": {
+    "kicker": "Văn bản",
+    "title": "Văn bản pháp lý & <em>chính sách</em>",
+    "groups": [
+      {
+        "name": "Việt Nam",
+        "items": [
+          {
+            "code": "NQ 57-NQ/TW",
+            "name": "Đột phá phát triển khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số quốc gia"
+          },
+          {
+            "code": "NQ 68-NQ/TW",
+            "name": "Phát triển kinh tế tư nhân"
+          },
+          {
+            "code": "Luật SHTT",
+            "name": "Luật Sở hữu trí tuệ (sửa đổi, bổ sung 2025)"
+          },
+          {
+            "code": "Luật KDBH",
+            "name": "Luật Kinh doanh bảo hiểm 2022 (sửa đổi, bổ sung 2025)"
+          },
+          {
+            "code": "NĐ 46/2023",
+            "name": "Hướng dẫn thi hành Luật Kinh doanh bảo hiểm"
+          },
+          {
+            "code": "BLDS 2015",
+            "name": "Bộ luật Dân sự"
+          },
+          {
+            "code": "TT 37/2024",
+            "name": "Chuẩn mực thẩm định giá tài sản vô hình"
+          },
+          {
+            "code": "Luật Dữ liệu",
+            "name": "Luật Dữ liệu 2024"
+          },
+          {
+            "code": "Luật KH,CN&ĐMST",
+            "name": "Luật Khoa học, Công nghệ và Đổi mới sáng tạo 2025"
+          },
+          {
+            "code": "Luật CNC",
+            "name": "Luật Công nghệ cao 2025"
+          },
+          {
+            "code": "NĐ 268/2025",
+            "name": "Doanh nghiệp khoa học và công nghệ"
+          },
+          {
+            "code": "QĐ 07/QĐ-TTg",
+            "name": "Chiến lược phát triển thị trường bảo hiểm Việt Nam đến năm 2030"
+          }
+        ]
+      },
+      {
+        "name": "Quốc tế",
+        "items": [
+          {
+            "code": "IVS 210",
+            "name": "Chuẩn mực thẩm định giá quốc tế về tài sản vô hình"
+          },
+          {
+            "code": "(EU) 1257/2012",
+            "name": "Quy định về sáng chế có hiệu lực thống nhất"
+          },
+          {
+            "code": "2009/138/EC",
+            "name": "Chỉ thị Solvency II về giám sát bảo hiểm dựa trên rủi ro"
+          },
+          {
+            "code": "(EU) 2016/97",
+            "name": "Chỉ thị về phân phối bảo hiểm"
+          },
+          {
+            "code": "CAS 49/2017",
+            "name": "Hướng dẫn định giá sáng chế, Trung Quốc"
+          },
+          {
+            "code": "Kế hoạch 5 năm 14",
+            "name": "Kế hoạch bảo hộ và sử dụng quyền SHTT, Trung Quốc (2021)"
+          },
+          {
+            "code": "IRM 4.48.5",
+            "name": "Hướng dẫn định giá tài sản vô hình, Sở Thuế vụ Hoa Kỳ"
+          },
+          {
+            "code": "Luật KDBH 1995",
+            "name": "Luật Kinh doanh bảo hiểm Nhật Bản"
+          }
+        ]
+      }
+    ]
+  }
+}

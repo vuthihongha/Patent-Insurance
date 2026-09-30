@@ -1,0 +1,14 @@
+node_modules/
+.env
+*.log
+.DS_Store
+data/
+dist/
+share/
+presentation/*.mp4
+public/images/_archive/
+public/media/hero-hanoi-*
+public/media/hero-night-*
+server-*.log
+HANDOFF.md
+public/diacritic-test.html

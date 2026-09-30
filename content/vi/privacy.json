@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "title": "Chính sách bảo mật | Chiến lược Bảo hiểm Sáng chế",
+    "description": "Cách website thu thập, sử dụng và bảo vệ dữ liệu cá nhân theo Nghị định 13/2023/NĐ-CP."
+  },
+  "header": {
+    "kicker": "Chính sách bảo mật",
+    "title": "Bảo vệ <em>dữ liệu</em> của bạn",
+    "lead": "Áp dụng theo Nghị định 13/2023/NĐ-CP<br>về bảo vệ dữ liệu cá nhân."
+  },
+  "sections": [
+    {
+      "title": "Dữ liệu được thu thập",
+      "items": [
+        "Công cụ tự đánh giá: chỉ lưu các lựa chọn và điểm số, không lưu tên, email hay địa chỉ IP.",
+        "Form đăng ký quan tâm: tên tổ chức, người liên hệ, email, loại hình, lĩnh vực, nội dung quan tâm và lời nhắn do bạn cung cấp."
+      ]
+    },
+    {
+      "title": "Mục đích sử dụng",
+      "items": [
+        "Liên hệ về hoạt động nghiên cứu và đề xuất thí điểm bảo hiểm sáng chế.",
+        "Tổng hợp số liệu ẩn danh phục vụ nghiên cứu khoa học."
+      ]
+    },
+    {
+      "title": "Chia sẻ và lưu trữ",
+      "items": [
+        "Không bán, không chia sẻ dữ liệu cho bên thứ ba vì mục đích thương mại.",
+        "Dữ liệu được lưu đến khi kết thúc hoạt động nghiên cứu hoặc khi bạn yêu cầu xóa."
+      ]
+    },
+    {
+      "title": "Quyền của bạn",
+      "items": [
+        "Được biết, truy cập, chỉnh sửa hoặc yêu cầu xóa dữ liệu của mình.",
+        "Được rút lại sự đồng ý bất cứ lúc nào.",
+        "Gửi yêu cầu qua email: vuthihongha.work@gmail.com."
+      ]
+    },
+    {
+      "title": "Bên kiểm soát dữ liệu",
+      "items": [
+        "CN. Vũ Thị Hồng Hà, tác giả đề tài, Trường Đại học Luật Hà Nội."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+<%- include('../partials/head') %>
+<%- include('../partials/header') %>
+
+<main id="main">
+  <section class="page-hero" aria-labelledby="page-title">
+    <canvas class="page-canvas" data-page-scene data-word="VOICES" aria-hidden="true"></canvas>
+    <div class="container narrow center-text">
+      <p class="kicker"><%= c.header.kicker %></p>
+      <h1 id="page-title" class="display display-sm"><%- c.header.title %></h1>
+      <p class="hero-lead"><%- c.header.lead %></p>
+    </div>
+  </section>
+
+  <section class="section section-tight" aria-label="<%= c.header.kicker %>">
+    <div class="container">
+      <ul class="quotes">
+        <% c.experts.forEach((e, i) => { %>
+          <li class="quote glass reveal <%= i === 0 ? 'is-feature' : '' %>">
+            <svg class="quote-mark" viewBox="0 0 32 24" aria-hidden="true"><path d="M0 24V14C0 6 4 1 12 0l1 3C8 5 6 8 6 12h6v12H0Zm19 0V14c0-8 4-13 12-14l1 3c-5 2-7 5-7 9h6v12H19Z"/></svg>
+            <blockquote><p><%= e.quote %></p></blockquote>
+            <ul class="dotlist quote-points">
+              <% e.points.forEach((p) => { %><li><%= p %></li><% }) %>
+            </ul>
+            <div class="quote-person">
+              <span class="avatar-wrap">
+                <span class="avatar" aria-hidden="true"><%= e.initials %></span>
+                <span class="avatar-flag"><%- include('../partials/flag', { code: e.flag }) %></span>
+              </span>
+              <div>
+                <p class="quote-name"><%= e.name %></p>
+                <p class="quote-role"><%= e.role %></p>
+              </div>
+            </div>
+          </li>
+        <% }) %>
+      </ul>
+      <p class="muted small center-text quotes-note"><%= c.note %></p>
+    </div>
+  </section>
+
+  <section class="section section-glow" aria-labelledby="china-title">
+    <div class="glow glow-band" aria-hidden="true"></div>
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="kicker"><%= c.china.kicker %></p>
+        <h2 id="china-title" class="h2"><%- c.china.title %></h2>
+      </header>
+      <ol class="product-grid">
+        <% c.china.items.forEach((p, i) => { %>
+          <li class="glass reveal">
+            <span class="card-index">0<%= i + 1 %></span>
+            <h3 class="h3"><%= p.name %></h3>
+            <p class="muted"><%= p.who %></p>
+          </li>
+        <% }) %>
+      </ol>
+    </div>
+  </section>
+</main>
+
+<script src="/js/page-scene.js" defer></script>
+<%- include('../partials/footer') %>

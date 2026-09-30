@@ -1,0 +1,151 @@
+<%- include('../partials/head') %>
+<%- include('../partials/header') %>
+
+<main id="main">
+  <section class="page-hero" aria-labelledby="page-title">
+    <canvas class="page-canvas" data-page-scene data-word="RESEARCH" aria-hidden="true"></canvas>
+    <div class="container narrow center-text">
+      <p class="kicker"><%= c.header.kicker %></p>
+      <h1 id="page-title" class="display display-sm"><%- c.header.title %></h1>
+      <p class="hero-lead"><%- c.header.lead %></p>
+    </div>
+  </section>
+
+  <!-- Project identity -->
+  <section class="section section-tight" aria-labelledby="project-title">
+    <div class="container">
+      <div class="project glass reveal">
+        <img class="project-logo" src="/images/hlu-logo.webp" alt="<%= t.footer.school %>" width="112" height="112" loading="lazy">
+        <div class="project-body">
+          <p class="kicker"><%= c.project.label %></p>
+          <h2 id="project-title" class="project-title"><%= c.project.title %></h2>
+          <ul class="chips">
+            <% c.project.meta.forEach((m) => { %><li class="chip"><%= m %></li><% }) %>
+          </ul>
+          <ul class="people">
+            <% c.people.forEach((p, i) => { %>
+              <li><span class="avatar <%= i === 0 ? 'is-author' : '' %>" aria-hidden="true"><%= p.initials %></span><span><span class="people-role"><%= p.role %></span><span class="people-name"><%= p.name %></span></span></li>
+            <% }) %>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research poster: balanced two-column blocks -->
+  <section class="section section-tight" aria-label="<%= c.header.kicker %>">
+    <div class="container">
+      <div class="poster">
+        <article class="poster-card glass reveal">
+          <h2 class="poster-label"><%= c.poster.problem.label %></h2>
+          <ul class="dotlist"><% c.poster.problem.items.forEach((it) => { %><li><%= it %></li><% }) %></ul>
+        </article>
+
+        <article class="poster-card glass reveal">
+          <h2 class="poster-label"><%= c.poster.goals.label %></h2>
+          <ol class="poster-numbered"><% c.poster.goals.items.forEach((it, i) => { %><li><span>0<%= i + 1 %></span><%= it %></li><% }) %></ol>
+        </article>
+
+        <article class="poster-card glass reveal">
+          <h2 class="poster-label"><%= c.poster.questions.label %></h2>
+          <ol class="question-list">
+            <% c.poster.questions.items.forEach((q, i) => { %><li><span class="question-n">(<%= i + 1 %>)</span><%= q %></li><% }) %>
+          </ol>
+        </article>
+
+        <article class="poster-card glass reveal">
+          <h2 class="poster-label"><%= c.poster.structure.label %></h2>
+          <ol class="chapter-list">
+            <% c.poster.structure.items.forEach((ch) => { %>
+              <li>
+                <span class="chapter-n"><%= ch.ch %></span>
+                <span class="chapter-text"><%= ch.text %>
+                  <% if (ch.flags) { %><span class="flag-row"><% ch.flags.forEach((f) => { %><%- include('../partials/flag', { code: f, size: 'flag-md' }) %><% }) %></span><% } %>
+                </span>
+              </li>
+            <% }) %>
+          </ol>
+        </article>
+
+        <article class="poster-card glass reveal">
+          <h2 class="poster-label"><%= c.poster.methods.label %></h2>
+          <ul class="chips method-chips">
+            <% c.poster.methods.items.forEach((m) => { %><li class="chip"><%= m %></li><% }) %>
+            <li class="chip chip-interview"><span><%= c.poster.methods.interview.label %></span><span class="flag-row-sm"><% c.poster.methods.interview.flags.forEach((f) => { %><%- include('../partials/flag', { code: f, size: 'flag-sm' }) %><% }) %></span></li>
+          </ul>
+        </article>
+
+        <article class="poster-card glass reveal">
+          <h2 class="poster-label"><%= c.poster.results.label %></h2>
+          <div class="result-groups">
+            <% c.poster.results.groups.forEach((g) => { %>
+              <a class="result-group" href="<%= pathFor(g.link) %>">
+                <span class="result-group-title"><%= g.title %><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+                <span class="muted"><%= g.items.join(' · ') %></span>
+              </a>
+            <% }) %>
+          </div>
+        </article>
+      </div>
+      <div class="cite glass reveal">
+        <p class="kicker"><%= c.cite.label %></p>
+        <p class="cite-text" id="cite-text"><%= c.cite.text %></p>
+        <button class="btn btn-ghost btn-sm" type="button" data-copy="#cite-text" data-copied="<%= c.cite.copied %>"><%= c.cite.copy %></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- What the website does -->
+  <section class="section section-tight" aria-labelledby="mission-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="kicker"><%= c.mission.kicker %></p>
+        <h2 id="mission-title" class="h2"><%- c.mission.title %></h2>
+      </header>
+      <ul class="cards cards-3">
+        <% c.mission.items.forEach((m) => { %>
+          <li class="card glass reveal">
+            <span class="card-icon" aria-hidden="true"><svg class="icon"><use href="#i-<%= m.icon %>"/></svg></span>
+            <h3 class="h3"><%= m.title %></h3>
+            <p class="muted"><%= m.body %></p>
+          </li>
+        <% }) %>
+      </ul>
+      <div class="usage-card glass reveal" data-usage hidden>
+        <span class="usage-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8 34a16 16 0 1 1 32 0"/><path d="M24 34 33 22"/><circle cx="24" cy="34" r="3"/></svg>
+        </span>
+        <div class="usage-main">
+          <span class="usage-value" data-usage-count></span>
+          <span class="usage-text"><span class="usage-label"><%= c.usage.label %></span><span class="muted small"><%= c.usage.note %></span></span>
+        </div>
+        <a class="btn btn-light btn-sm" href="<%= pathFor('tool') %>"><%= t.cta.tool %><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="contact-title">
+    <div class="container">
+      <div class="cta-band reveal">
+        <div class="glow glow-cta" aria-hidden="true"></div>
+        <h2 id="contact-title" class="h2"><%- c.contact.title %></h2>
+        <p class="cta-body"><%= c.contact.body %></p>
+        <p class="cta-email">vuthihongha.work@gmail.com</p>
+        <div class="btn-row center">
+          <a class="btn btn-light" href="mailto:vuthihongha.work@gmail.com"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><%= c.contact.button %></a>
+          <a class="btn btn-ghost" href="<%= pathFor('tool') %>"><%= t.cta.tool %></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+fetch('/api/assessments/count').then(function (r) { return r.ok ? r.json() : null; }).then(function (j) {
+  if (!j || !j.count) return;
+  document.querySelector('[data-usage-count]').textContent = j.count.toLocaleString('<%= lang === "vi" ? "vi-VN" : "en-US" %>');
+  document.querySelector('[data-usage]').hidden = false;
+}).catch(function () {});
+</script>
+<script src="/js/page-scene.js" defer></script>
+<%- include('../partials/footer') %>

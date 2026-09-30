@@ -1,0 +1,19 @@
+<% const title = t.notFound.title; %>
+<%- include('../partials/head', { title }) %>
+<%- include('../partials/header') %>
+
+<main id="main">
+  <section class="page-hero page-hero-full" aria-labelledby="page-title">
+    <div class="glow glow-hero" aria-hidden="true"></div>
+    <div class="container narrow center-text">
+      <p class="kicker">404</p>
+      <h1 id="page-title" class="display display-sm"><%= t.notFound.title %></h1>
+      <p class="hero-lead"><%= t.notFound.body %></p>
+      <div class="btn-row center">
+        <a class="btn btn-light" href="<%= pathFor('home') %>"><%= t.cta.backHome %></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<%- include('../partials/footer') %>

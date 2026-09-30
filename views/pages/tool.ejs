@@ -1,0 +1,109 @@
+<%- include('../partials/head') %>
+<%- include('../partials/header') %>
+
+<main id="main">
+  <section class="page-hero page-hero-tool" aria-labelledby="page-title">
+    <canvas class="page-canvas" data-page-scene data-word="ASSESS" aria-hidden="true"></canvas>
+    <div class="container narrow center-text">
+      <p class="kicker"><%= c.header.kicker %></p>
+      <h1 id="page-title" class="display display-sm"><%- c.header.title %></h1>
+      <ul class="tool-meta">
+        <% c.header.meta.forEach((m) => { %><li><%= m %></li><% }) %>
+      </ul>
+    </div>
+  </section>
+
+  <div class="container quiz-wrap">
+    <noscript><p class="glass quiz-noscript"><%= c.ui.noscript %></p></noscript>
+
+    <form class="quiz glass" data-quiz novalidate aria-labelledby="page-title">
+      <div class="quiz-progress">
+        <p class="quiz-step" aria-live="polite">
+          <%= c.ui.question %> <b data-step-current>01</b><span> / <%= String(c.questions.length).padStart(2, '0') %></span>
+        </p>
+        <div class="quiz-bar" aria-hidden="true"><span data-progress></span></div>
+      </div>
+
+      <% c.questions.forEach((q, qi) => { %>
+        <fieldset class="quiz-q" data-question="<%= q.id %>" <% if (qi > 0) { %>hidden<% } %>>
+          <legend class="quiz-title"><%- q.title %></legend>
+          <div class="options <%= q.options.length > 4 ? 'options-3' : 'options-2' %>">
+            <% q.options.forEach((o) => { %>
+              <label class="option">
+                <input type="radio" name="<%= q.id %>" value="<%= o.id %>">
+                <span class="option-box">
+                  <span class="option-label"><%= o.label %></span>
+                  <span class="option-check" aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></span>
+                </span>
+              </label>
+            <% }) %>
+          </div>
+        </fieldset>
+      <% }) %>
+
+      <p class="quiz-error" role="alert" data-error hidden><%= c.ui.required %></p>
+
+      <div class="quiz-nav">
+        <button class="btn btn-ghost" type="button" data-back disabled><%= c.ui.back %></button>
+        <button class="btn btn-light" type="button" data-next><span data-next-label><%= c.ui.next %></span>
+          <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+      </div>
+    </form>
+
+    <section class="quiz-result" data-result hidden tabindex="-1" aria-labelledby="result-title">
+      <div class="result-top">
+        <div class="result-score glass">
+          <p class="kicker"><%= c.result.kicker %></p>
+          <div class="gauge">
+            <svg viewBox="0 0 120 120" aria-hidden="true">
+              <defs>
+                <linearGradient id="gauge-grad" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#d6e6ff"/>
+                  <stop offset="1" stop-color="#2f6bff"/>
+                </linearGradient>
+              </defs>
+              <circle class="gauge-track" cx="60" cy="60" r="52"/>
+              <circle class="gauge-fill" cx="60" cy="60" r="52" data-gauge/>
+            </svg>
+            <p class="gauge-value"><span data-score>0</span><small>/100</small></p>
+          </div>
+          <p class="gauge-caption"><%= c.result.readiness %></p>
+          <h2 id="result-title" class="h3 result-level" data-level-title></h2>
+          <p class="muted" data-level-body></p>
+        </div>
+
+        <div class="result-products">
+          <h2 class="kicker"><%= c.result.productsTitle %></h2>
+          <ol class="fit-list" data-products></ol>
+        </div>
+      </div>
+
+      <div class="result-tips glass" data-tips-wrap>
+        <h2 class="kicker"><%= c.result.tipsTitle %></h2>
+        <ul class="dotlist" data-tips></ul>
+      </div>
+
+      <div class="btn-row result-actions">
+        <button class="btn btn-light" type="button" data-restart><%= c.ui.restart %></button>
+        <button class="btn btn-ghost" type="button" data-print><%= c.ui.print %></button>
+      </div>
+      <p class="small muted result-disclaimer"><%= c.result.disclaimer %></p>
+
+      <details class="interest-toggle glass">
+        <summary><span><span class="kicker"><%= t.interest.kicker %></span><span class="interest-toggle-title"><%- t.interest.title %></span></span><span class="acc-icon" aria-hidden="true"></span></summary>
+        <div class="interest-toggle-body">
+          <p class="muted form-lead"><%= t.interest.lead %></p>
+          <%- include('../partials/interest-form', { id: 'tool-interest', fromTool: true }) %>
+        </div>
+      </details>
+    </section>
+
+    <p class="tool-count" data-count-wrap hidden><b data-count></b> <%= c.ui.count %></p>
+  </div>
+</main>
+
+<script type="application/json" id="assessment-data"><%- JSON.stringify({ lang, ui: c.ui, questions: c.questions.map((q) => q.id), result: c.result }).replace(/</g, '\\u003c') %></script>
+<script src="/js/scoring.js" defer></script>
+<script src="/js/assessment.js" defer></script>
+<script src="/js/page-scene.js" defer></script>
+<%- include('../partials/footer') %>

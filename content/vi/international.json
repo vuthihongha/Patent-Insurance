@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "title": "Kinh nghiệm quốc tế | Chiến lược Bảo hiểm Sáng chế",
+    "description": "Bảo hiểm sáng chế tại Trung Quốc, Hoa Kỳ, Liên minh châu Âu và Nhật Bản: 4 mô hình và bài học cho Việt Nam."
+  },
+  "header": {
+    "kicker": "Kinh nghiệm quốc tế",
+    "title": "4 mô hình<br><em>1 bài học</em> cho Việt Nam",
+    "lead": "Từ Nhà nước dẫn dắt<br>đến thị trường tự vận hành."
+  },
+  "spectrum": {
+    "kicker": "Vai trò Nhà nước",
+    "title": "Mỗi quốc gia <em>một vị trí</em>",
+    "left": "Nhà nước dẫn dắt",
+    "right": "Thị trường tự vận hành",
+    "points": [
+      {
+        "id": "cn",
+        "name": "Trung Quốc",
+        "pos": 14,
+        "below": false
+      },
+      {
+        "id": "jp",
+        "name": "Nhật Bản",
+        "pos": 40,
+        "below": false
+      },
+      {
+        "id": "eu",
+        "name": "EU",
+        "pos": 62,
+        "below": true
+      },
+      {
+        "id": "us",
+        "name": "Hoa Kỳ",
+        "pos": 90,
+        "below": false
+      }
+    ],
+    "vn": {
+      "name": "Việt Nam (đề xuất)",
+      "pos": 30,
+      "note": "Nhà nước khởi xướng, hỗ trợ có điều kiện, rồi rút dần."
+    }
+  },
+  "countriesTitle": "Chi tiết từng mô hình",
+  "countries": [
+    {
+      "id": "cn",
+      "name": "Trung Quốc",
+      "model": "Nhà nước định hướng · Thị trường vận hành · Địa phương thí điểm",
+      "stats": [
+        {
+          "value": "4.818",
+          "label": "sáng chế được bảo hiểm tại Bắc Kinh"
+        },
+        {
+          "value": "472",
+          "label": "doanh nghiệp được hỗ trợ phí"
+        },
+        {
+          "value": "53 triệu",
+          "label": "NDT trợ cấp phí bảo hiểm"
+        }
+      ],
+      "timeline": [
+        {
+          "year": "2010",
+          "text": "Sản phẩm đầu tiên tại Phật Sơn: hơn 100 doanh nghiệp, hơn 1.000 sáng chế"
+        },
+        {
+          "year": "2011–13",
+          "text": "PICC thí điểm tại 27 thành phố cùng CNIPA"
+        },
+        {
+          "year": "2014",
+          "text": "2.496 sáng chế của 744 doanh nghiệp được bảo hiểm"
+        },
+        {
+          "year": "2020",
+          "text": "Bắc Kinh thí điểm có trợ cấp phí từ ngân sách"
+        },
+        {
+          "year": "2021",
+          "text": "Đưa bảo hiểm SHTT vào Kế hoạch 5 năm lần thứ 14"
+        }
+      ],
+      "chart": {
+        "title": "Thị phần phí BHSC theo địa phương (PICC, 2014)",
+        "items": [
+          {
+            "label": "Giang Tô",
+            "value": 25
+          },
+          {
+            "label": "Bắc Kinh",
+            "value": 18
+          },
+          {
+            "label": "Quảng Đông",
+            "value": 15
+          },
+          {
+            "label": "Hồ Bắc",
+            "value": 7
+          },
+          {
+            "label": "Khác",
+            "value": 35
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Chu Lập Quyền, Tạp chí Tài chính Trung Quốc, số 15/2023",
+          "url": ""
+        },
+        {
+          "label": "CNIPA & PICC, Nghiên cứu lý luận và thực tiễn bảo hiểm SHTT Trung Quốc",
+          "url": ""
+        },
+        {
+          "label": "CNIPA (2015)",
+          "url": "https://www.cnipa.gov.cn/art/2015/12/2/art_410_134644.htm"
+        }
+      ]
+    },
+    {
+      "id": "us",
+      "name": "Hoa Kỳ",
+      "model": "Thị trường thuần túy · Hợp đồng phức tạp · Phí cao",
+      "stats": [
+        {
+          "value": "1–5%",
+          "label": "phí trên giá trị bảo hiểm"
+        },
+        {
+          "value": "$0,5–10M",
+          "label": "giá trị được bảo hiểm thường gặp"
+        },
+        {
+          "value": "15%",
+          "label": "đồng bảo hiểm (ví dụ năm 2010)"
+        }
+      ],
+      "timeline": [
+        {
+          "year": "~1985",
+          "text": "Hình thành từ tranh chấp về bảo hiểm trách nhiệm chung"
+        },
+        {
+          "year": "1987",
+          "text": "IPISC tiên phong; Litigation Risk Management gia nhập thị trường"
+        },
+        {
+          "year": "1990s",
+          "text": "Sản phẩm chuyên biệt tách khỏi bảo hiểm trách nhiệm chung, D&O"
+        },
+        {
+          "year": "Nay",
+          "text": "Bảo hiểm thực thi, phòng vệ, trách nhiệm xâm phạm (AIG…)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lanjouw & Schankerman (2001, 2004)",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "name": "Liên minh châu Âu",
+      "model": "Điều phối đa cấp · Tự nguyện · Ưu tiên SMEs",
+      "stats": [
+        {
+          "value": "2007",
+          "label": "Đan Mạch ra mắt PatentEnforcer"
+        },
+        {
+          "value": "3+",
+          "label": "doanh nghiệp bảo hiểm cạnh tranh tại Đan Mạch (2014)"
+        },
+        {
+          "value": "01/6/2023",
+          "label": "Tòa án Sáng chế Thống nhất (UPC) đi vào hoạt động"
+        }
+      ],
+      "timeline": [
+        {
+          "year": "2002",
+          "text": "Ủy ban châu Âu đặt hàng báo cáo CJA về bảo hiểm kiện tụng"
+        },
+        {
+          "year": "2008",
+          "text": "Chọn mô hình tự nguyện ở cấp châu Âu"
+        },
+        {
+          "year": "2015",
+          "text": "Chiến lược Thị trường chung hỗ trợ SMEs dùng quyền SHTT"
+        },
+        {
+          "year": "2018",
+          "text": "Quỹ COSME đồng tài trợ bảo hiểm tranh tụng cho SMEs"
+        },
+        {
+          "year": "2023",
+          "text": "UPC vận hành, giảm chi phí bảo hộ xuyên biên giới"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ủy ban châu Âu, Making IPR work for SMEs (2014)",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "jp",
+      "name": "Nhật Bản",
+      "model": "Hỗ trợ chọn lọc · Hướng ra thị trường nước ngoài",
+      "stats": [
+        {
+          "value": "24/92",
+          "label": "vụ xâm phạm có bồi thường trên 100 triệu yên (2014–2020)"
+        },
+        {
+          "value": "1/2",
+          "label": "phí bảo hiểm tố tụng ở nước ngoài được JPO hỗ trợ cho SMEs"
+        },
+        {
+          "value": "2016",
+          "label": "bảo hiểm tố tụng SHTT ở nước ngoài"
+        }
+      ],
+      "timeline": [
+        {
+          "year": "1994",
+          "text": "Bảo hiểm chi phí tố tụng ra đời"
+        },
+        {
+          "year": "2003",
+          "text": "NEXI bảo hiểm tiền bản quyền li-xăng với đối tác nước ngoài"
+        },
+        {
+          "year": "2016",
+          "text": "Bảo hiểm tố tụng SHTT ở nước ngoài cho SMEs (Sompo, Tokio Marine…)"
+        },
+        {
+          "year": "Nay",
+          "text": "Chính phủ tái bảo hiểm qua Bộ Kinh tế, Thương mại và Công nghiệp"
+        }
+      ],
+      "sources": [
+        {
+          "label": "WIPO, Unlocking IP-backed Financing: Japan’s Journey",
+          "url": "https://www.wipo.int/edocs/pubdocs/en/wipo-pub-rn2025-2-en-country-perspectives-japan-s-journey.pdf"
+        },
+        {
+          "label": "JPO, qua EU Business in Japan (2016)",
+          "url": "https://www.eubusinessinjapan.eu/library/news/overseas-ip-litigation-insurance-scheme-smes"
+        }
+      ]
+    }
+  ],
+  "lessons": {
+    "kicker": "Bài học cho Việt Nam",
+    "title": "Ba <em>bài học</em> rút ra",
+    "items": [
+      {
+        "title": "Đặt trong tổng thể",
+        "body": "Gắn bảo hiểm sáng chế với chính sách SHTT và đổi mới sáng tạo quốc gia."
+      },
+      {
+        "title": "Nhà nước mở đường",
+        "body": "Thí điểm và hỗ trợ phí ở giai đoạn đầu, có điều kiện và giới hạn."
+      },
+      {
+        "title": "Kết nối tài chính",
+        "body": "Liên thông với thế chấp, bảo lãnh tín dụng và định giá tài sản trí tuệ."
+      }
+    ]
+  }
+}

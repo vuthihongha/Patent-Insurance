@@ -1,0 +1,21 @@
+{
+  "name": "patent-insurance-strategy",
+  "version": "0.1.0",
+  "description": "Chiến lược Bảo hiểm Sáng chế / Patent Insurance Strategy — website song ngữ Việt–Anh",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Vũ Thị Hồng Hà",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "compression": "^1.8.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}

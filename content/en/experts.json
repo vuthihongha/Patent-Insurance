@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "title": "Expert insights | Patent Insurance Strategy",
+    "description": "Views on patent insurance from IP lawyers and experts in Vietnam, Japan, Taiwan and China."
+  },
+  "header": {
+    "kicker": "Expert insights",
+    "title": "5 experts<br><em>4 jurisdictions</em>",
+    "lead": "Practical perspectives from lawyers,<br>regulators and scholars."
+  },
+  "experts": [
+    {
+      "initials": "LL",
+      "name": "Le Xuan Loc",
+      "role": "Partner, Tilleke & Gibbins Vietnam",
+      "place": "Vietnam",
+      "flag": "vn",
+      "quote": "There is no clear legal framework yet, and no insurer has actually launched such a product on the market.",
+      "points": [
+        "A gap between policy direction and practice",
+        "Risk quantification and IP valuation models are needed",
+        "Financial institutions join only with risk-sharing mechanisms"
+      ]
+    },
+    {
+      "initials": "NH",
+      "name": "Nguyen Tuan Hung",
+      "role": "Deputy Head of Patents, Tilleke & Gibbins Vietnam",
+      "place": "Vietnam",
+      "flag": "vn",
+      "quote": "The crux is to determine who values intellectual assets, and by which method.",
+      "points": [
+        "IP can gain value as it is used more widely",
+        "Valuation and risk sharing are preconditions",
+        "Premiums must match the buyer's expected benefit"
+      ]
+    },
+    {
+      "initials": "KT",
+      "name": "Kentaro Takaoka",
+      "role": "Deputy Director, Trade Secret/IP Management, National Center for Industrial Property Information and Training (INPIT)",
+      "place": "Japan",
+      "flag": "jp",
+      "quote": "One can say the State has built the institutional and financial foundation for IP-related insurance mechanisms.",
+      "points": [
+        "Sign contracts early, with detailed risk-prevention terms",
+        "Support for IP dispute costs when firms expand abroad",
+        "Start-ups must show IP is a value-creating “weapon”"
+      ]
+    },
+    {
+      "initials": "TW",
+      "name": "Patent attorney (anonymous)",
+      "role": "Leading law firm; guides an IP professional association",
+      "place": "Taiwan",
+      "flag": "tw",
+      "quote": "Patent insurance is closely tied to dispute risk: whether you are sued, the outcome, the extent of liability and even attorney fees are all uncertain.",
+      "points": [
+        "Buyers assess their own risk to time their purchase",
+        "Invalidity cover could shape patent transfer decisions",
+        "The US has the most developed IP-based finance market"
+      ]
+    },
+    {
+      "initials": "MB",
+      "name": "Assoc. Prof. Dr. Ma Biyu",
+      "role": "Law School, Yunnan University",
+      "place": "China",
+      "flag": "cn",
+      "quote": "China’s patent insurance has become a multi-layered product system covering enforcement costs, infringement liability, financial risk, professional liability and international trade risk.",
+      "points": [
+        "PICC, Ping An, CPIC and Huatai are the main providers",
+        "Subsidies refund part of the premium, capped and tapering",
+        "Focus on enforcement and infringement liability cover"
+      ]
+    }
+  ],
+  "china": {
+    "kicker": "According to Dr. Ma Biyu",
+    "title": "Six products <em>in China</em>",
+    "items": [
+      {
+        "name": "Patent enforcement",
+        "who": "Patent owners"
+      },
+      {
+        "name": "Infringement liability",
+        "who": "Manufacturers and importers"
+      },
+      {
+        "name": "Patent-backed loan guarantee",
+        "who": "Banks as beneficiaries"
+      },
+      {
+        "name": "Patent agent professional liability",
+        "who": "Patent agencies"
+      },
+      {
+        "name": "Licensing credit",
+        "who": "Licensors"
+      },
+      {
+        "name": "Filing costs, trade-fair disputes",
+        "who": "Applicants, exhibitors"
+      }
+    ]
+  },
+  "note": "Excerpts from the research’s expert interviews, published with the experts’ consent.",
+  "more": "Read more from the interview"
+}

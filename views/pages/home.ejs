@@ -1,0 +1,239 @@
+<%- include('../partials/head') %>
+<%- include('../partials/header') %>
+
+<main id="main">
+  <!-- Hero: animated city → patents → ecosystem, under the insurance dome and an aurora sky -->
+  <section class="hero" aria-labelledby="hero-title">
+    <!-- Procedural night city: ideas rise from rooftops, become patents (glowing nodes), link into an innovation ecosystem, under a luminous insurance dome -->
+    <canvas class="hero-canvas" data-hero-canvas aria-hidden="true"></canvas>
+    <div class="hero-shade" aria-hidden="true"></div>
+
+    <div class="container hero-content" data-hero-fade>
+      <div class="hero-copy">
+        <a class="hero-badge rise" style="--d: .3s" href="<%= pathFor('about') %>">
+          <span class="hero-badge-new"><%= c.hero.badge.new %></span>
+          <span><%= c.hero.badge.text %></span>
+          <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
+        </a>
+        <h1 id="hero-title" class="display display-hero title-reveal">
+          <% c.hero.title.split('<br>').forEach((line, i) => { %><span class="line" style="--i: <%= i %>"><span><span class="t3d"><span class="t3d-depth" aria-hidden="true"><%- line %></span><span class="t3d-face"><%- line %></span></span></span></span><% }) %>
+        </h1>
+        <p class="hero-lead rise" style="--d: .55s"><%- c.hero.lead %></p>
+        <div class="btn-row rise" style="--d: .7s">
+          <a class="btn btn-light" href="<%= pathFor('strategy') %>"><%= c.hero.primary %>
+            <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <button class="btn-play" type="button" data-video-open>
+            <span class="btn-play-circle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg></span>
+            <span class="btn-play-text"><span><%= c.hero.video.label %></span><small><%= c.hero.video.meta %></small></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container hero-bar-wrap rise" style="--d: 1s">
+      <% const heroBarLinks = ['insurance', 'international', 'experts', null]; %>
+      <ul class="hero-bar glass">
+        <% c.hero.features.forEach((f, i) => { const href = heroBarLinks[i] && pathFor(heroBarLinks[i]); %>
+          <li>
+            <% if (href) { %><a href="<%= href %>"><% } %>
+              <span class="hero-bar-icon" aria-hidden="true"><svg class="icon"><use href="#i-<%= f.icon %>"/></svg></span>
+              <span><span class="hero-bar-value"><%= f.value %></span><span class="hero-bar-label"><%= f.label %></span></span>
+            <% if (href) { %></a><% } %>
+          </li>
+        <% }) %>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 02 · The paradox -->
+  <section class="section section-aura aura-a" aria-labelledby="problem-title">
+    <div class="container">
+      <header class="section-head section-head-left reveal">
+        <p class="kicker"><%= c.problem.eyebrow %></p>
+        <h2 id="problem-title" class="h2"><%- c.problem.title %></h2>
+      </header>
+      <ul class="stats stats-row">
+        <% c.problem.stats.forEach((s) => { %>
+          <li class="stat reveal">
+            <span class="stat-value"><%= s.value %></span>
+            <span class="stat-label"><%= s.label %><%- include('../partials/source', { s: s.source }) %></span>
+          </li>
+        <% }) %>
+      </ul>
+
+      <figure class="chart-card glass reveal">
+        <figcaption class="chart-head">
+          <span class="chart-title"><%= c.problem.chartTitle %></span>
+          <span class="chart-note"><%= c.problem.chartNote %></span>
+        </figcaption>
+        <div class="bars">
+          <% const max = Math.max(...c.problem.chartValues); %>
+          <% c.problem.chartLabels.forEach((label, i) => { const v = c.problem.chartValues[i]; const last = i === c.problem.chartLabels.length - 1; %>
+            <div class="bar-row">
+              <span class="bar-label"><%= label %></span>
+              <span class="bar-track" aria-hidden="true">
+                <span class="bar-fill <%= i === 0 ? 'is-accent' : '' %> <%= last ? 'is-target' : '' %>" style="--w: <%= Math.max(v / max * 100, 1.2) %>%"></span>
+              </span>
+              <span class="bar-value"><%= c.problem.chartDisplay[i] %></span>
+            </div>
+          <% }) %>
+        </div>
+        <%- include('../partials/source', { s: c.problem.chartSource }) %>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 03 · The solution: three products as a floating stack of glass policy cards -->
+  <section class="section section-glow" aria-labelledby="solution-title">
+    <div class="glow glow-band" aria-hidden="true"></div>
+    <div class="container solution-grid">
+      <div class="solution-text">
+        <header class="section-head section-head-left reveal">
+          <p class="kicker"><%= c.solution.eyebrow %></p>
+          <h2 id="solution-title" class="h2"><%- c.solution.title %></h2>
+        </header>
+        <ol class="solution-list">
+          <% c.solution.products.forEach((p, i) => { %>
+            <li class="reveal">
+              <span class="solution-n">0<%= i + 1 %></span>
+              <div>
+                <p class="solution-stage"><%= p.stage %></p>
+                <h3 class="h3"><%= p.name %></h3>
+                <p class="muted"><%= p.body %></p>
+              </div>
+            </li>
+          <% }) %>
+        </ol>
+        <a class="btn btn-ghost" href="<%= pathFor('insurance') %>"><%= t.cta.readMore %>
+          <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="glass-stack" aria-hidden="true">
+        <span class="glass-stack-light"></span>
+        <% c.solution.products.forEach((p, i) => { %>
+          <div class="glass-card gc-<%= i %>">
+            <span class="gc-top"><img src="/images/mark.svg" alt="" width="28" height="28"><span>0<%= i + 1 %></span></span>
+            <span class="gc-stage"><%= p.stage %></span>
+            <span class="gc-name"><%= p.name %></span>
+          </div>
+        <% }) %>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 · The roadmap -->
+  <section class="section" aria-labelledby="strategy-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="kicker"><%= c.strategy.eyebrow %></p>
+        <h2 id="strategy-title" class="h2"><%- c.strategy.title %></h2>
+      </header>
+      <ol class="roadmap">
+        <% c.strategy.phases.forEach((ph) => { %>
+          <li class="roadmap-step reveal">
+            <span class="roadmap-num"><%= ph.num %></span>
+            <h3 class="h3"><%= ph.name %></h3>
+            <p class="muted"><%= ph.body %></p>
+          </li>
+        <% }) %>
+      </ol>
+      <div class="center">
+        <a class="btn btn-light" href="<%= pathFor('strategy') %>"><%= t.cta.strategy %>
+          <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video tour -->
+  <section class="section section-aura aura-b" aria-labelledby="video-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="kicker"><%= c.videoSection.kicker %></p>
+        <h2 id="video-title" class="h2"><%- c.videoSection.title %></h2>
+        <p class="hero-lead"><%- c.videoSection.lead %></p>
+      </header>
+      <button class="video-card reveal" type="button" data-video-open aria-label="<%= c.hero.video.label %>">
+        <img src="/media/demo-poster.jpg" alt="" width="1280" height="720" loading="lazy">
+        <span class="video-card-shade" aria-hidden="true"></span>
+        <span class="video-card-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg></span>
+        <span class="video-card-meta"><%= c.hero.video.label %> · <%= c.hero.video.meta %></span>
+      </button>
+    </div>
+  </section>
+
+  <!-- 05 · International proof, one card per jurisdiction -->
+  <section class="section" aria-labelledby="intl-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="kicker"><%= c.international.eyebrow %></p>
+        <h2 id="intl-title" class="h2"><%- c.international.title %></h2>
+      </header>
+      <ul class="cases cases-4">
+        <% c.international.cases.forEach((k) => { %>
+          <li class="case reveal">
+            <p class="case-country"><%- include('../partials/flag', { code: k.flag }) %><%= k.country %></p>
+            <p class="case-value"><%= k.value %></p>
+            <p class="muted"><%= k.label %></p>
+            <%- include('../partials/source', { s: k.source }) %>
+          </li>
+        <% }) %>
+      </ul>
+      <div class="center">
+        <a class="btn btn-ghost" href="<%= pathFor('international') %>"><%= t.nav.international %>
+          <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ + register interest, side by side -->
+  <section class="section section-aura aura-c" id="dang-ky" aria-labelledby="faq-title">
+    <div class="container">
+      <div class="faq-form">
+        <div class="faq-col">
+          <header class="section-head section-head-left reveal">
+            <p class="kicker"><%= c.faq.kicker %></p>
+            <h2 id="faq-title" class="h2"><%- c.faq.title %></h2>
+          </header>
+          <div class="accordion">
+            <% c.faq.items.forEach((m, i) => { %>
+              <details class="acc glass reveal">
+                <summary><span class="acc-num">0<%= i + 1 %></span><span class="acc-q"><%= m.q %></span><span class="acc-icon" aria-hidden="true"></span></summary>
+                <p class="acc-a"><%= m.a %></p>
+              </details>
+            <% }) %>
+          </div>
+        </div>
+        <div class="form-col glass reveal">
+          <p class="kicker"><%= t.interest.kicker %></p>
+          <h2 class="h2 form-title"><%- t.interest.title %></h2>
+          <p class="muted form-lead"><%= t.interest.lead %></p>
+          <%- include('../partials/interest-form', { id: 'home-interest' }) %>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section" aria-labelledby="action-title">
+    <div class="container">
+      <div class="cta-band reveal">
+        <div class="glow glow-cta" aria-hidden="true"></div>
+        <span class="tag"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg><%= c.action.note %></span>
+        <h2 id="action-title" class="h2"><%- c.action.title %></h2>
+        <div class="btn-row center">
+          <a class="btn btn-light" href="<%= pathFor('tool') %>"><%= t.cta.tool %>
+            <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <dialog class="video-modal" data-video-modal aria-label="<%= c.hero.video.label %>">
+    <button class="video-close" type="button" data-video-close aria-label="<%= c.hero.video.close %>"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></button>
+    <video controls playsinline preload="none" poster="/media/demo-poster.jpg" data-video>
+      <source src="/media/demo.mp4" type="video/mp4">
+    </video>
+  </dialog>
+</main>
+
+<script src="/js/hero-scene.js" defer></script>
+<%- include('../partials/footer') %>

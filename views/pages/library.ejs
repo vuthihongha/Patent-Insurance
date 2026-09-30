@@ -1,0 +1,85 @@
+<%- include('../partials/head') %>
+<%- include('../partials/header') %>
+
+<main id="main">
+  <section class="page-hero page-hero-short" aria-labelledby="page-title">
+    <canvas class="page-canvas" data-page-scene data-word="LIBRARY" aria-hidden="true"></canvas>
+    <div class="container narrow center-text">
+      <p class="kicker"><%= c.header.kicker %></p>
+      <h1 id="page-title" class="display display-sm"><%- c.header.title %></h1>
+      <p class="hero-lead"><%- c.header.lead %></p>
+    </div>
+  </section>
+
+  <section class="section section-tight" aria-labelledby="glossary-title">
+    <div class="container">
+      <div class="lib-head reveal">
+        <div>
+          <p class="kicker"><%= c.glossary.kicker %></p>
+          <h2 id="glossary-title" class="h2"><%- c.glossary.title %></h2>
+        </div>
+        <label class="search">
+          <span class="sr-only"><%= c.glossary.searchLabel %></span>
+          <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input type="search" placeholder="<%= c.glossary.search %>" data-glossary-search autocomplete="off">
+        </label>
+      </div>
+      <dl class="glossary" data-glossary>
+        <% c.glossary.items.forEach((g) => { %>
+          <div class="term glass" data-term>
+            <dt><span class="term-name"><%= g.term %></span><span class="term-alt" lang="<%= lang === 'vi' ? 'en' : 'vi' %>"><%= g.alt %></span></dt>
+            <dd class="muted"><%= g.def %></dd>
+          </div>
+        <% }) %>
+      </dl>
+      <p class="glossary-empty muted" data-glossary-empty hidden><%= c.glossary.empty %></p>
+      <p class="sr-only" aria-live="polite" data-glossary-status></p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="docs-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="kicker"><%= c.docs.kicker %></p>
+        <h2 id="docs-title" class="h2"><%- c.docs.title %></h2>
+      </header>
+      <div class="docs">
+        <% c.docs.groups.forEach((grp) => { %>
+          <div class="docs-group reveal">
+            <h3 class="docs-group-title"><%= grp.name %><span><%= grp.items.length %></span></h3>
+            <ul class="docs-list">
+              <% grp.items.forEach((d) => { %>
+                <li><span class="doc-code"><%= d.code %></span><span class="doc-name"><%= d.name %></span></li>
+              <% }) %>
+            </ul>
+          </div>
+        <% }) %>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+(function () {
+  var input = document.querySelector('[data-glossary-search]');
+  if (!input) return;
+  var terms = Array.prototype.slice.call(document.querySelectorAll('[data-term]'));
+  var empty = document.querySelector('[data-glossary-empty]');
+  var status = document.querySelector('[data-glossary-status]');
+  function norm(s) { return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/g, 'd'); }
+  var haystack = terms.map(function (el) { return norm(el.textContent); });
+  input.addEventListener('input', function () {
+    var q = norm(input.value.trim());
+    var shown = 0;
+    terms.forEach(function (el, i) {
+      var match = !q || haystack[i].indexOf(q) !== -1;
+      el.hidden = !match;
+      if (match) shown++;
+    });
+    empty.hidden = shown > 0;
+    status.textContent = shown + ' / ' + terms.length;
+  });
+})();
+</script>
+<script src="/js/page-scene.js" defer></script>
+<%- include('../partials/footer') %>

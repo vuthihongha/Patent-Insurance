@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "title": "Góc chuyên gia | Chiến lược Bảo hiểm Sáng chế",
+    "description": "Ý kiến của luật sư, chuyên gia sở hữu trí tuệ Việt Nam, Nhật Bản, Đài Loan và Trung Quốc về bảo hiểm sáng chế."
+  },
+  "header": {
+    "kicker": "Góc chuyên gia",
+    "title": "5 chuyên gia<br><em>4 quốc gia</em> và vùng lãnh thổ",
+    "lead": "Góc nhìn thực tiễn từ luật sư,<br>nhà quản lý và học giả."
+  },
+  "experts": [
+    {
+      "initials": "LL",
+      "name": "LS. Lê Xuân Lộc",
+      "role": "Luật sư thành viên, Tilleke & Gibbins Việt Nam",
+      "place": "Việt Nam",
+      "flag": "vn",
+      "quote": "Hiện chưa có khung pháp lý rõ ràng và cũng chưa ghi nhận hoạt động triển khai thực tế từ phía doanh nghiệp bảo hiểm trên thị trường.",
+      "points": [
+        "Khoảng trống giữa định hướng chính sách và thực tiễn",
+        "Cần mô hình lượng hóa rủi ro và định giá tài sản trí tuệ",
+        "Tổ chức tài chính chỉ tham gia khi có cơ chế chia sẻ rủi ro"
+      ]
+    },
+    {
+      "initials": "NH",
+      "name": "Ông Nguyễn Tuấn Hùng",
+      "role": "Phó trưởng Bộ phận sáng chế, Tilleke & Gibbins Việt Nam",
+      "place": "Việt Nam",
+      "flag": "vn",
+      "quote": "Điểm mấu chốt là phải xác định được ai là chủ thể định giá tài sản trí tuệ và phương pháp định giá như thế nào.",
+      "points": [
+        "Giá trị tài sản trí tuệ có thể tăng khi được sử dụng rộng rãi",
+        "Định giá và chia sẻ rủi ro là điều kiện tiên quyết",
+        "Phí phải cân xứng với lợi ích kỳ vọng của bên mua"
+      ]
+    },
+    {
+      "initials": "KT",
+      "name": "Ông Kentaro Takaoka",
+      "role": "Phó Trưởng phòng Quản lý bí mật thương mại/SHTT, Trung tâm Thông tin và Đào tạo SHCN quốc gia (INPIT)",
+      "place": "Nhật Bản",
+      "flag": "jp",
+      "quote": "Có thể nói, Nhà nước đã xây dựng được nền tảng thể chế và tài chính cho các cơ chế bảo hiểm liên quan đến sở hữu trí tuệ.",
+      "points": [
+        "Ký hợp đồng sớm, quy định chi tiết để phòng ngừa rủi ro",
+        "Hỗ trợ chi phí tranh chấp SHTT khi doanh nghiệp ra nước ngoài",
+        "Startup cần chứng minh SHTT là “vũ khí” tạo giá trị"
+      ]
+    },
+    {
+      "initials": "TW",
+      "name": "Luật sư sáng chế (ẩn danh)",
+      "role": "Hãng luật hàng đầu, định hướng chuyên môn Hiệp hội SHTT",
+      "place": "Đài Loan",
+      "flag": "tw",
+      "quote": "Bảo hiểm sáng chế có mối liên hệ chặt chẽ với rủi ro tranh chấp: khả năng bị khởi kiện, kết quả tranh chấp, mức độ trách nhiệm pháp lý và ngay cả chi phí luật sư đều không chắc chắn.",
+      "points": [
+        "Người mua tự đánh giá rủi ro để chọn thời điểm tham gia",
+        "Bảo hiểm rủi ro vô hiệu có thể tác động tới giao dịch chuyển nhượng",
+        "Hoa Kỳ là thị trường tài chính dựa trên SHTT phát triển nhất"
+      ]
+    },
+    {
+      "initials": "MB",
+      "name": "PGS.TS. Ma Biyu",
+      "role": "Trường Luật, Đại học Vân Nam",
+      "place": "Trung Quốc",
+      "flag": "cn",
+      "quote": "Hệ thống bảo hiểm sáng chế của Trung Quốc đã phát triển thành một cấu trúc sản phẩm đa tầng, nhằm giải quyết chi phí thực thi quyền, trách nhiệm pháp lý do xâm phạm, rủi ro tài chính, trách nhiệm nghề nghiệp và rủi ro thương mại quốc tế.",
+      "points": [
+        "PICC, Ping An, CPIC, Huatai là các nhà cung cấp chính",
+        "Trợ cấp hoàn một phần phí, có trần và giảm dần",
+        "Tập trung vào bảo hiểm thực thi và trách nhiệm xâm phạm"
+      ]
+    }
+  ],
+  "china": {
+    "kicker": "Theo PGS.TS. Ma Biyu",
+    "title": "6 sản phẩm <em>tại Trung Quốc</em>",
+    "items": [
+      {
+        "name": "Thực thi quyền sáng chế",
+        "who": "Chủ sở hữu sáng chế"
+      },
+      {
+        "name": "Trách nhiệm do xâm phạm",
+        "who": "Doanh nghiệp sản xuất, nhập khẩu"
+      },
+      {
+        "name": "Bảo lãnh thế chấp sáng chế",
+        "who": "Ngân hàng là bên thụ hưởng"
+      },
+      {
+        "name": "Trách nhiệm nghề nghiệp đại diện SHCN",
+        "who": "Tổ chức đại diện sáng chế"
+      },
+      {
+        "name": "Tín dụng trong cấp phép",
+        "who": "Bên cấp phép (li-xăng)"
+      },
+      {
+        "name": "Chi phí nộp đơn, tranh chấp tại triển lãm",
+        "who": "Người nộp đơn, doanh nghiệp triển lãm"
+      }
+    ]
+  },
+  "note": "Trích từ các buổi phỏng vấn chuyên gia của đề tài, có sự đồng ý của chuyên gia.",
+  "more": "Đọc thêm trích đoạn phỏng vấn"
+}

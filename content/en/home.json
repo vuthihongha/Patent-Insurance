@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "title": "Patent Insurance Strategy",
+    "description": "Patent insurance: sharing risk to accelerate patent commercialisation and Vietnam's innovation ecosystem."
+  },
+  "hero": {
+    "eyebrow": "Innovation · Vietnam",
+    "title": "Patent Insurance<br><em>Strategy</em>",
+    "lead": "Sharing patent risk<br>to keep Vietnam’s innovation flowing.",
+    "tag": [
+      "Ideas",
+      "Patents",
+      "Ecosystem"
+    ],
+    "badge": {
+      "new": "2026",
+      "text": "Student research · Hanoi Law University"
+    },
+    "secondary": "Assess your business",
+    "checks": [
+      "Vietnamese – English",
+      "Free",
+      "Anonymous"
+    ],
+    "primary": "Explore the strategy",
+    "video": {
+      "label": "Watch video",
+      "meta": "1 min 17 s",
+      "close": "Close video"
+    },
+    "card": {
+      "kicker": "Tool",
+      "title": "Business self-assessment",
+      "body": "8 questions · about 2 minutes"
+    },
+    "features": [
+      {
+        "icon": "shield",
+        "value": "03",
+        "label": "Insurance products"
+      },
+      {
+        "icon": "globe",
+        "value": "04",
+        "label": "International models"
+      },
+      {
+        "icon": "handshake",
+        "value": "05",
+        "label": "Experts interviewed"
+      },
+      {
+        "icon": "link",
+        "value": "VI · EN",
+        "label": "Bilingual"
+      }
+    ],
+    "vertical": "Patent · Insurance · Strategy"
+  },
+  "problem": {
+    "eyebrow": "The paradox",
+    "title": "Patents are rising,<br>commercialisation <em>lags behind</em>",
+    "stats": [
+      {
+        "value": "+36%",
+        "label": "Patent applications by Vietnamese applicants in 2025",
+        "source": {
+          "label": "IP Vietnam, via VnEconomy (Jan 2026)",
+          "url": "https://vneconomy.vn/so-don-dang-ky-sang-che-cua-ca-nhan-to-chuc-viet-nam-tang-36.htm"
+        }
+      },
+      {
+        "value": "+32.4%",
+        "label": "Patent applications by Vietnamese applicants, H1 2026",
+        "source": {
+          "label": "Ministry of Science and Technology, via Tuyen Quang (Jul 2026)",
+          "url": "https://baotuyenquang.com.vn/khoa-hoc-cong-nghe/202607/thuong-mai-hoa-tai-san-tri-tue-van-la-diem-nghen-can-tiep-tuc-thao-go-4e96406/"
+        }
+      },
+      {
+        "value": "3,270+",
+        "label": "IP infringement cases detected in H1 2025",
+        "source": {
+          "label": "VnEconomy (Aug 2025)",
+          "url": "https://vneconomy.vn/so-huu-tri-tue-la-la-chan-de-doanh-nghiep-viet-giu-suc-canh-tranh.htm"
+        }
+      }
+    ],
+    "chartTitle": "Share of patents commercialised (%)",
+    "chartLabels": [
+      "Vietnam (2025)",
+      "Global average",
+      "Developed countries",
+      "Vietnam 2030 target"
+    ],
+    "chartValues": [
+      0.1,
+      5,
+      10,
+      10
+    ],
+    "chartNote": "50× below the global average",
+    "chartDisplay": [
+      "0.1%",
+      "5%",
+      "10%",
+      "8–10%"
+    ],
+    "chartSource": {
+      "label": "Nghe An DOST (2025); 2030 target: MOST, via Dan Tri (May 2025)",
+      "url": "https://ngheandost.gov.vn/hoat-dong-khcn/viet-nam-co-22-san-giao-dich-cong-nghe-ty-le-thuong-mai-hoa-sang-che-con-thap-8865.html"
+    }
+  },
+  "solution": {
+    "eyebrow": "The solution",
+    "title": "Insurance across <em>the whole lifecycle</em>",
+    "products": [
+      {
+        "icon": "file",
+        "stage": "Obtaining rights",
+        "name": "Application insurance",
+        "body": "Reimburses costs if the patent is not granted."
+      },
+      {
+        "icon": "shield",
+        "stage": "Exploitation",
+        "name": "Infringement liability insurance",
+        "body": "Pays out when a business is accused of unintentional infringement."
+      },
+      {
+        "icon": "scale",
+        "stage": "Enforcement",
+        "name": "Legal expenses insurance",
+        "body": "Covers attorney and court fees when suing or being sued."
+      }
+    ]
+  },
+  "strategy": {
+    "eyebrow": "Roadmap",
+    "title": "Three phases to <em>build</em> the market",
+    "phases": [
+      {
+        "num": "01",
+        "name": "Launch",
+        "body": "Controlled pilot in Hanoi and Ho Chi Minh City"
+      },
+      {
+        "num": "02",
+        "name": "Consolidate",
+        "body": "Wider coverage, standardised contracts"
+      },
+      {
+        "num": "03",
+        "name": "Deepen",
+        "body": "Linking insurance to the economic value of patents"
+      }
+    ]
+  },
+  "international": {
+    "eyebrow": "Global",
+    "title": "<em>Proven</em> around the world",
+    "cases": [
+      {
+        "flag": "cn",
+        "country": "China",
+        "value": "CNY 5.39 bn",
+        "label": "insured for 472 companies in the Beijing pilot",
+        "source": {
+          "label": "Zhou Liquan, China Finance, no. 15/2023",
+          "url": ""
+        }
+      },
+      {
+        "flag": "us",
+        "country": "United States",
+        "value": "1–5%",
+        "label": "typical premium on the insured value",
+        "source": {
+          "label": "Lanjouw & Schankerman (2001, 2004)",
+          "url": ""
+        }
+      },
+      {
+        "flag": "eu",
+        "country": "European Union",
+        "value": "2007",
+        "label": "Denmark launches the PatentEnforcer scheme for SMEs",
+        "source": {
+          "label": "European Commission, Making IPR work for SMEs (2014)",
+          "url": ""
+        }
+      },
+      {
+        "flag": "jp",
+        "country": "Japan",
+        "value": "1/2",
+        "label": "of overseas IP litigation premiums subsidised for SMEs (since 2016)",
+        "source": {
+          "label": "JPO, via EU Business in Japan (2016)",
+          "url": "https://www.eubusinessinjapan.eu/library/news/overseas-ip-litigation-insurance-scheme-smes"
+        }
+      }
+    ]
+  },
+  "action": {
+    "title": "Which <em>insurance</em> does your business need?",
+    "note": "About 2 minutes"
+  },
+  "faq": {
+    "kicker": "FAQ",
+    "title": "What businesses <em>ask</em>",
+    "items": [
+      {
+        "q": "Can I buy patent insurance in Vietnam today?",
+        "a": "Not yet. There is no dedicated patent insurance product on the market and no specific legal provisions. The research proposes a roadmap to build this market."
+      },
+      {
+        "q": "Can small businesses take part?",
+        "a": "Yes. The research proposes screening by technological capability and innovation activity, not by size. Decree 268/2025/ND-CP widened S&T enterprise status to include innovation criteria."
+      },
+      {
+        "q": "Does insurance pay out for wilful infringement?",
+        "a": "No. Wilful infringement and fraud are excluded, so insurance does not weaken the deterrent effect of IP law."
+      },
+      {
+        "q": "How much would it cost?",
+        "a": "Vietnam has no premium schedule yet. In the United States, premiums are typically 1–5% of the insured value. The research proposes partial State premium support during the pilot."
+      },
+      {
+        "q": "When should a business get insured?",
+        "a": "Application insurance fits from the time of filing. For the other products, the research suggests insuring at grant, before any specific litigation risk arises."
+      },
+      {
+        "q": "Is patent insurance mandatory?",
+        "a": "No. The research proposes a voluntary scheme with State support, considering semi-mandatory cover for some high-risk sectors only once the market matures."
+      }
+    ]
+  },
+  "videoSection": {
+    "kicker": "Video tour",
+    "title": "See the website <em>in action</em>",
+    "lead": "A quick tour: from the home page and the self-assessment tool to international experience."
+  }
+}

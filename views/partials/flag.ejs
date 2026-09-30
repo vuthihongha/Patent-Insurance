@@ -1,0 +1,3 @@
+<%# Round, glossy flag badge. Pass `code` (vn|cn|us|eu|jp) and optional `size` class. %>
+<% const crops = { cn: '0 0 20 20', us: '0 0 20 20', tw: '0 0 20 20', vn: '5 0 20 20', eu: '5 0 20 20', jp: '5 0 20 20' }; %>
+<span class="flag-round <%= typeof size !== 'undefined' ? size : '' %>" aria-hidden="true"><svg viewBox="<%= crops[code] || '5 0 20 20' %>" preserveAspectRatio="xMidYMid slice"><use href="#f-<%= code %>" width="30" height="20"/></svg></span>

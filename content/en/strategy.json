@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "title": "Strategy | Patent Insurance Strategy",
+    "description": "A three-phase roadmap and five pillars for developing patent insurance in Vietnam."
+  },
+  "header": {
+    "eyebrow": "Strategy",
+    "title": "5 pillars<br><em>3 phases</em>",
+    "lead": "A long-term roadmap to build<br>a patent insurance market in Vietnam."
+  },
+  "toc": [
+    {
+      "id": "muc-tieu",
+      "label": "Goals"
+    },
+    {
+      "id": "tru-cot-1",
+      "label": "Product roadmap"
+    },
+    {
+      "id": "tru-cot-2",
+      "label": "Pilot"
+    },
+    {
+      "id": "tru-cot-3",
+      "label": "Infrastructure"
+    },
+    {
+      "id": "tru-cot-4",
+      "label": "Financing"
+    },
+    {
+      "id": "tru-cot-5",
+      "label": "Monitoring & KPIs"
+    }
+  ],
+  "goals": {
+    "title": "Three <em>core</em> policies",
+    "items": [
+      {
+        "title": "Spread risk",
+        "body": "Businesses invest in R&D with confidence."
+      },
+      {
+        "title": "Build a market",
+        "body": "Products designed for Vietnam."
+      },
+      {
+        "title": "Complete the ecosystem",
+        "body": "Accelerate patent commercialisation."
+      }
+    ]
+  },
+  "pillarLabel": "Pillar",
+  "p1": {
+    "id": "tru-cot-1",
+    "title": "Product <em>roadmap</em>",
+    "lead": "From basic to advanced, as the market matures.",
+    "phases": [
+      {
+        "num": "01",
+        "tab": "Phase 1",
+        "name": "Launch",
+        "products": [
+          "Application insurance",
+          "Enforcement insurance"
+        ],
+        "points": [
+          "Unblock two bottlenecks: obtaining and protecting rights",
+          "Wilful infringement and fraud excluded"
+        ]
+      },
+      {
+        "num": "02",
+        "tab": "Phase 2",
+        "name": "Consolidate",
+        "products": [
+          "Wider coverage",
+          "Higher protection"
+        ],
+        "points": [
+          "Firms with stable patent portfolios",
+          "Standard contracts and claims procedures"
+        ]
+      },
+      {
+        "num": "03",
+        "tab": "Phase 3",
+        "name": "Deepen",
+        "products": [
+          "Infringement liability insurance",
+          "Patent-backed loan guarantees",
+          "IP financing"
+        ],
+        "points": [
+          "Requires patent valuation and market data"
+        ]
+      }
+    ],
+    "criteriaTitle": "Criteria for moving on",
+    "criteria": [
+      "Standardised contracts",
+      "Enough insured enforcement cases",
+      "Insurers hold risk data",
+      "Market acceptance"
+    ]
+  },
+  "p2": {
+    "id": "tru-cot-2",
+    "title": "Controlled <em>pilot</em>",
+    "lead": "The right firms, the right places, limited systemic risk.",
+    "blocks": [
+      {
+        "icon": "building",
+        "title": "Participants",
+        "body": "S&T and high-tech firms with R&D and patents."
+      },
+      {
+        "icon": "handshake",
+        "title": "Insurers",
+        "body": "Private insurers design the products; the State supports through co-insurance and reinsurance."
+      }
+    ],
+    "cities": [
+      {
+        "name": "Hanoi",
+        "value": "VND 9,088 bn",
+        "fact": "For science & technology, innovation and digital transformation: 4% of the city’s total budget spending",
+        "source": {
+          "label": "Le Thanh (Dec 2025), Hanoi Department of Finance data",
+          "url": ""
+        },
+        "label": "2026 budget"
+      },
+      {
+        "name": "Ho Chi Minh City",
+        "value": "VND 12,700+ bn",
+        "fact": "For science & technology; the city has named 2026 its year of acceleration for innovation",
+        "source": {
+          "label": "HCMC Government Portal (Jan 2026)",
+          "url": "https://tphcm.chinhphu.vn/tphcm-danh-hon-12700-ty-dong-cho-khoa-hoc-cong-nghe-nam-2026-101260114150731419.htm"
+        },
+        "label": "2026 budget"
+      }
+    ]
+  },
+  "p3": {
+    "id": "tru-cot-3",
+    "title": "Infrastructure & <em>intermediaries</em>",
+    "lead": "The foundation for valuation, risk assessment and claims.",
+    "items": [
+      {
+        "icon": "database",
+        "title": "Patent data",
+        "body": "Legal status, licensing, disputes."
+      },
+      {
+        "icon": "network",
+        "title": "Intermediaries",
+        "body": "Valuers, assessors, advisers, IP exchanges."
+      },
+      {
+        "icon": "link",
+        "title": "Connections",
+        "body": "State, insurers, firms, universities."
+      }
+    ]
+  },
+  "p4": {
+    "id": "tru-cot-4",
+    "title": "Financing & <em>risk sharing</em>",
+    "lead": "Support that activates the market, not permanent subsidy.",
+    "steps": [
+      {
+        "label": "Activate",
+        "body": "Partial premium support"
+      },
+      {
+        "label": "Share risk",
+        "body": "Innovation and S&T funds share the risk"
+      },
+      {
+        "label": "Build foundations",
+        "body": "Data, standards, people"
+      },
+      {
+        "label": "Taper support",
+        "body": "A self-sustaining market"
+      }
+    ]
+  },
+  "p5": {
+    "id": "tru-cot-5",
+    "title": "Monitoring & <em>KPIs</em>",
+    "lead": "From a “registration cost” mindset to an “insured investment in intellectual assets”.",
+    "sectors": [
+      "Quantum",
+      "Semiconductors",
+      "Renewables",
+      "High-tech parks"
+    ],
+    "kpiCaption": "Three-tier KPI system",
+    "kpis": [
+      {
+        "tier": "Input",
+        "items": [
+          "Contracts signed",
+          "Participation rate",
+          "Premium support"
+        ]
+      },
+      {
+        "tier": "Output",
+        "items": [
+          "Enforcement cases supported",
+          "Patents commercialised"
+        ]
+      },
+      {
+        "tier": "Impact",
+        "items": [
+          "Lower financial risk",
+          "Higher business confidence"
+        ]
+      }
+    ]
+  },
+  "next": {
+    "title": "Ready to join the <em>pilot?</em>"
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "title": "Library | Patent Insurance Strategy",
+    "description": "A bilingual Vietnamese–English glossary and key legal documents on patent insurance, IP and innovation."
+  },
+  "header": {
+    "kicker": "Library",
+    "title": "Terms & <em>documents</em>",
+    "lead": "Quick bilingual reference, English and Vietnamese."
+  },
+  "glossary": {
+    "kicker": "Glossary",
+    "title": "Patent insurance <em>dictionary</em>",
+    "search": "Search terms…",
+    "searchLabel": "Search terms",
+    "empty": "No matching terms.",
+    "items": [
+      {
+        "term": "Patent insurance",
+        "alt": "Bảo hiểm sáng chế",
+        "def": "A mechanism for transferring and spreading patent risk."
+      },
+      {
+        "term": "Patent risk",
+        "alt": "Rủi ro sáng chế",
+        "def": "Risk arising when obtaining, maintaining, enforcing and exploiting patent rights."
+      },
+      {
+        "term": "Patent application insurance",
+        "alt": "Bảo hiểm cấp phép",
+        "def": "Covers filing costs if the application is not granted."
+      },
+      {
+        "term": "Enforcement insurance",
+        "alt": "Bảo hiểm thực thi quyền",
+        "def": "Pays the cost of suing infringers of your patent."
+      },
+      {
+        "term": "Defence insurance",
+        "alt": "Bảo hiểm phòng vệ",
+        "def": "Pays defence costs when you are accused of infringement."
+      },
+      {
+        "term": "Infringement liability insurance",
+        "alt": "Bảo hiểm trách nhiệm xâm phạm",
+        "def": "Pays costs and damages for unintentional infringement."
+      },
+      {
+        "term": "Legal expenses insurance (LEI)",
+        "alt": "Bảo hiểm chi phí pháp lý",
+        "def": "Funds attorneys and litigation in disputes."
+      },
+      {
+        "term": "Co-insurance",
+        "alt": "Đồng bảo hiểm",
+        "def": "The insured bears a share of each loss."
+      },
+      {
+        "term": "Reinsurance",
+        "alt": "Tái bảo hiểm",
+        "def": "An insurer passes part of its risk to another party."
+      },
+      {
+        "term": "Deductible",
+        "alt": "Mức khấu trừ",
+        "def": "The part of a loss the insured pays first."
+      },
+      {
+        "term": "Freedom to operate (FTO)",
+        "alt": "Tự do khai thác",
+        "def": "A review confirming a product does not infringe others' patents."
+      },
+      {
+        "term": "Non-practising entity (NPE)",
+        "alt": "Chủ thể không thực hành sáng chế",
+        "def": "A patent holder that mainly litigates rather than produces."
+      },
+      {
+        "term": "Licence",
+        "alt": "Li-xăng",
+        "def": "A contract allowing another party to use a patent."
+      },
+      {
+        "term": "Collateral",
+        "alt": "Tài sản bảo đảm",
+        "def": "Assets, including patent rights, pledged to secure a loan."
+      },
+      {
+        "term": "Commercialisation",
+        "alt": "Thương mại hóa",
+        "def": "Putting a patent into production and business to create value."
+      },
+      {
+        "term": "Innovation ecosystem",
+        "alt": "Hệ sinh thái đổi mới sáng tạo",
+        "def": "A network of actors that create, protect and use knowledge."
+      },
+      {
+        "term": "IVS 210",
+        "alt": "Chuẩn mực thẩm định giá quốc tế 210",
+        "def": "The international standard for valuing intangible assets."
+      }
+    ]
+  },
+  "docs": {
+    "kicker": "Documents",
+    "title": "Laws & <em>policy documents</em>",
+    "groups": [
+      {
+        "name": "Vietnam",
+        "items": [
+          {
+            "code": "Resolution 57-NQ/TW",
+            "name": "Breakthroughs in science, technology, innovation and digital transformation"
+          },
+          {
+            "code": "Resolution 68-NQ/TW",
+            "name": "Private sector development"
+          },
+          {
+            "code": "IP Law",
+            "name": "Law on Intellectual Property (amended 2025)"
+          },
+          {
+            "code": "Insurance Business Law",
+            "name": "Law on Insurance Business 2022 (amended 2025)"
+          },
+          {
+            "code": "Decree 46/2023",
+            "name": "Implementing the Law on Insurance Business"
+          },
+          {
+            "code": "Civil Code 2015",
+            "name": "Civil Code of Vietnam"
+          },
+          {
+            "code": "Circular 37/2024",
+            "name": "Valuation standard for intangible assets"
+          },
+          {
+            "code": "Data Law",
+            "name": "Law on Data 2024"
+          },
+          {
+            "code": "S&T and Innovation Law",
+            "name": "Law on Science, Technology and Innovation 2025"
+          },
+          {
+            "code": "High Technology Law",
+            "name": "Law on High Technology 2025"
+          },
+          {
+            "code": "Decree 268/2025",
+            "name": "Science and technology enterprises"
+          },
+          {
+            "code": "Decision 07/QD-TTg",
+            "name": "Insurance market development strategy to 2030"
+          }
+        ]
+      },
+      {
+        "name": "International",
+        "items": [
+          {
+            "code": "IVS 210",
+            "name": "International Valuation Standard for intangible assets"
+          },
+          {
+            "code": "(EU) 1257/2012",
+            "name": "Regulation on unitary patent protection"
+          },
+          {
+            "code": "2009/138/EC",
+            "name": "Solvency II Directive on risk-based supervision"
+          },
+          {
+            "code": "(EU) 2016/97",
+            "name": "Insurance Distribution Directive"
+          },
+          {
+            "code": "CAS 49/2017",
+            "name": "Patent valuation guidance, China"
+          },
+          {
+            "code": "14th Five-Year Plan",
+            "name": "IP protection and use plan, China (2021)"
+          },
+          {
+            "code": "IRM 4.48.5",
+            "name": "Intangible property valuation guidelines, US IRS"
+          },
+          {
+            "code": "Insurance Business Act 1995",
+            "name": "Japan's Insurance Business Act"
+          }
+        ]
+      }
+    ]
+  }
+}

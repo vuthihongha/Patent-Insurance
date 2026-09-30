@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "title": "What is patent insurance? | Patent Insurance Strategy",
+    "description": "Definition, features and three patent insurance products proposed for Vietnam: application, legal expenses and infringement liability insurance."
+  },
+  "header": {
+    "kicker": "Patent insurance",
+    "title": "Transferring and <em>spreading</em><br>patent risk",
+    "lead": "Insurers share the legal risk,<br>so inventors can innovate with confidence."
+  },
+  "risk": {
+    "kicker": "Patent risk",
+    "title": "Risk at <em>every stage</em>",
+    "stages": [
+      {
+        "label": "Before grant",
+        "body": "The application is refused and costs are sunk."
+      },
+      {
+        "label": "After grant",
+        "body": "The patent may face cancellation or invalidation."
+      },
+      {
+        "label": "During use",
+        "body": "Sued for infringement, or infringed by others."
+      },
+      {
+        "label": "After expiry",
+        "body": "Legal risk can persist after the right ends."
+      }
+    ],
+    "traitsTitle": "Why are patents vulnerable?",
+    "traits": [
+      {
+        "title": "A negative right",
+        "body": "A patent lets you exclude others; it does not guarantee your own freedom to operate."
+      },
+      {
+        "title": "Can be invalidated",
+        "body": "Even after examination, a patent can be revoked at any time."
+      },
+      {
+        "title": "Law meets technology",
+        "body": "Scope depends on how the claims are interpreted."
+      }
+    ]
+  },
+  "traits": {
+    "kicker": "Features",
+    "title": "How is it <em>different?</em>",
+    "items": [
+      {
+        "icon": "shield",
+        "title": "Non-life insurance",
+        "body": "Created by contract, works like civil insurance."
+      },
+      {
+        "icon": "file",
+        "title": "Intangible subject",
+        "body": "Intellectual assets are hard to quantify and price."
+      },
+      {
+        "icon": "scale",
+        "title": "Focused on infringement",
+        "body": "Both defending claims and enforcing your rights."
+      },
+      {
+        "icon": "database",
+        "title": "Financial support",
+        "body": "Pays the cost of resolving disputes instead of restoring an asset, as traditional insurance does."
+      }
+    ]
+  },
+  "compare": {
+    "kicker": "Three proposed products",
+    "title": "Comparing <em>three products</em>",
+    "products": [
+      "Application insurance",
+      "Legal expenses (enforcement) insurance",
+      "Infringement liability insurance"
+    ],
+    "phases": [
+      "Phase 1 – 2",
+      "Phase 1 – 2",
+      "Phase 3"
+    ],
+    "rows": [
+      {
+        "label": "Nature",
+        "cells": [
+          "Risk during prosecution",
+          "Litigation and enforcement costs",
+          "Civil liability"
+        ]
+      },
+      {
+        "label": "Insured",
+        "cells": [
+          "Patent applicants",
+          "Plaintiffs or defendants in patent disputes",
+          "Manufacturers, distributors, technology users"
+        ]
+      },
+      {
+        "label": "Trigger",
+        "cells": [
+          "Application not granted",
+          "Suing or being sued for infringement",
+          "Third-party infringement allegation"
+        ]
+      },
+      {
+        "label": "Pays for",
+        "cells": [
+          "Filing and prosecution costs",
+          "Attorneys, court fees, other legal costs",
+          "Defence, counterclaims, damages awarded"
+        ]
+      },
+      {
+        "label": "Extras",
+        "cells": [
+          "Discount when renewing after grant",
+          "Patent watch, FTO, competitor analysis",
+          "Validity and scope disputes"
+        ]
+      },
+      {
+        "label": "Exclusions",
+        "cells": [
+          "Fraud, false information",
+          "Wilful infringement, fraud",
+          "Wilful infringement, fines, criminal acts"
+        ]
+      },
+      {
+        "label": "Precedent",
+        "cells": [
+          "UK, China",
+          "Beijing: support for disputes abroad",
+          "Japan: accidental incidents only"
+        ]
+      }
+    ],
+    "note": "Phase 1 launches the first two products at a basic level. Phase 2 adds no new product; it widens the coverage and protection of those same two products. Infringement liability insurance comes only in Phase 3."
+  },
+  "myths": {
+    "kicker": "Common doubts",
+    "title": "Is patent insurance <em>feasible?</em>",
+    "items": [
+      {
+        "q": "Is patent risk too uncertain to insure?",
+        "a": "Risk arises at well-defined procedural points and falls into five groups: intrinsic, environmental, innovation, licensing demands and NPEs. It can be identified and managed."
+      },
+      {
+        "q": "Is it impossible to price?",
+        "a": "Insurers can use proxies such as dispute frequency, duration and average awards. Risk can also be split into layers and spread through reinsurance."
+      },
+      {
+        "q": "Too expensive for SMEs?",
+        "a": "The State can subsidise early premiums, as Japan and China do. Tiered products let SMEs buy smaller cover. Premiums fall as market data builds up."
+      }
+    ]
+  },
+  "next": {
+    "title": "Which one <em>fits</em> you?"
+  },
+  "scenarios": {
+    "kicker": "Scenarios",
+    "title": "How would it <em>work</em>?",
+    "note": "Hypothetical scenarios illustrating the products proposed by the research. Actual cover depends on the policy.",
+    "paysLabel": "Insurance pays",
+    "excludesLabel": "Not covered",
+    "items": [
+      {
+        "flag": "vn",
+        "who": "AI start-up · Hanoi",
+        "title": "Patent application refused after examination",
+        "product": "Application insurance",
+        "pays": [
+          "Search and drafting costs",
+          "Filing and prosecution fees"
+        ],
+        "excludes": "False statements or fraud in the application"
+      },
+      {
+        "flag": "vn",
+        "who": "Semiconductor firm · Ho Chi Minh City",
+        "title": "Sued for infringement by a competitor when exporting to the US",
+        "product": "Legal expenses · infringement liability",
+        "pays": [
+          "Attorney, litigation and counterclaim costs",
+          "Damages for unintentional infringement (Phase 3)"
+        ],
+        "excludes": "Wilful infringement, administrative fines"
+      },
+      {
+        "flag": "vn",
+        "who": "Research institute · biotech",
+        "title": "Finds another company using its patent",
+        "product": "Legal expenses (enforcement) insurance",
+        "pays": [
+          "Investigation and evidence costs",
+          "Attorney fees to sue"
+        ],
+        "excludes": "Costs outside the policy scope"
+      }
+    ]
+  }
+}

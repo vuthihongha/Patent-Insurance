@@ -1,0 +1,163 @@
+<%- include('../partials/head') %>
+<%- include('../partials/header') %>
+
+<main id="main">
+  <section class="page-hero" aria-labelledby="page-title">
+    <canvas class="page-canvas" data-page-scene data-word="STRATEGY" aria-hidden="true"></canvas>
+    <div class="container narrow center-text">
+      <p class="kicker"><%= c.header.eyebrow %></p>
+      <h1 id="page-title" class="display display-sm"><%- c.header.title %></h1>
+      <p class="hero-lead"><%- c.header.lead %></p>
+    </div>
+  </section>
+
+  <div class="container with-toc">
+    <nav class="toc" aria-label="<%= t.onThisPage %>">
+      <ol>
+        <% c.toc.forEach((item, i) => { %>
+          <li><a href="#<%= item.id %>" data-toc-link><span class="toc-num"><%= String(i).padStart(2, '0') %></span><%= item.label %></a></li>
+        <% }) %>
+      </ol>
+    </nav>
+
+    <div class="toc-content">
+      <!-- Goals -->
+      <section id="muc-tieu" class="block" aria-labelledby="goals-title">
+        <h2 id="goals-title" class="h2"><%- c.goals.title %></h2>
+        <ul class="cards cards-3">
+          <% c.goals.items.forEach((g, i) => { %>
+            <li class="card glass reveal">
+              <span class="card-index">0<%= i + 1 %></span>
+              <h3 class="h3"><%= g.title %></h3>
+              <p class="muted"><%= g.body %></p>
+            </li>
+          <% }) %>
+        </ul>
+      </section>
+
+      <!-- Pillar 1 -->
+      <section id="<%= c.p1.id %>" class="block" aria-labelledby="p1-title">
+        <p class="kicker"><%= c.pillarLabel %> 01</p>
+        <h2 id="p1-title" class="h2"><%- c.p1.title %></h2>
+        <p class="block-lead"><%= c.p1.lead %></p>
+
+        <div class="tabs" data-tabs>
+          <div class="tab-list" role="tablist" aria-label="<%= c.p1.title %>">
+            <% c.p1.phases.forEach((ph, i) => { %>
+              <button class="tab" role="tab" type="button" id="tab-<%= i %>" aria-controls="panel-<%= i %>"
+                      aria-selected="<%= i === 0 %>" tabindex="<%= i === 0 ? 0 : -1 %>">
+                <span class="tab-num"><%= ph.num %></span>
+                <span class="tab-text"><span class="tab-small"><%= ph.tab %></span><%= ph.name %></span>
+              </button>
+            <% }) %>
+          </div>
+          <% c.p1.phases.forEach((ph, i) => { %>
+            <div class="tab-panel glass" role="tabpanel" id="panel-<%= i %>" aria-labelledby="tab-<%= i %>" tabindex="0">
+              <ul class="chips">
+                <% ph.products.forEach((p) => { %><li class="chip"><%= p %></li><% }) %>
+              </ul>
+              <ul class="dotlist">
+                <% ph.points.forEach((pt) => { %><li><%= pt %></li><% }) %>
+              </ul>
+            </div>
+          <% }) %>
+        </div>
+
+        <h3 class="sub-title kicker"><%= c.p1.criteriaTitle %></h3>
+        <ol class="criteria">
+          <% c.p1.criteria.forEach((cr, i) => { %>
+            <li class="reveal"><span class="criteria-num">0<%= i + 1 %></span><%= cr %></li>
+          <% }) %>
+        </ol>
+      </section>
+
+      <!-- Pillar 2 -->
+      <section id="<%= c.p2.id %>" class="block" aria-labelledby="p2-title">
+        <p class="kicker"><%= c.pillarLabel %> 02</p>
+        <h2 id="p2-title" class="h2"><%- c.p2.title %></h2>
+        <p class="block-lead"><%= c.p2.lead %></p>
+        <ul class="cards cards-2">
+          <% c.p2.blocks.forEach((b) => { %>
+            <li class="card glass reveal">
+              <span class="card-icon" aria-hidden="true"><svg class="icon"><use href="#i-<%= b.icon %>"/></svg></span>
+              <h3 class="h3"><%= b.title %></h3>
+              <p class="muted"><%= b.body %></p>
+            </li>
+          <% }) %>
+          <% c.p2.cities.forEach((city) => { %>
+            <li class="card glass city reveal">
+              <p class="city-name"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><%= city.name %></p>
+              <p class="city-label"><%= city.label %></p>
+              <p class="city-value"><%= city.value %></p>
+              <p class="muted"><%= city.fact %></p>
+              <%- include('../partials/source', { s: city.source }) %>
+            </li>
+          <% }) %>
+        </ul>
+      </section>
+
+      <!-- Pillar 3 -->
+      <section id="<%= c.p3.id %>" class="block" aria-labelledby="p3-title">
+        <p class="kicker"><%= c.pillarLabel %> 03</p>
+        <h2 id="p3-title" class="h2"><%- c.p3.title %></h2>
+        <p class="block-lead"><%= c.p3.lead %></p>
+        <ul class="cards cards-3">
+          <% c.p3.items.forEach((it) => { %>
+            <li class="card glass reveal">
+              <span class="card-icon" aria-hidden="true"><svg class="icon"><use href="#i-<%= it.icon %>"/></svg></span>
+              <h3 class="h3"><%= it.title %></h3>
+              <p class="muted"><%= it.body %></p>
+            </li>
+          <% }) %>
+        </ul>
+      </section>
+
+      <!-- Pillar 4 -->
+      <section id="<%= c.p4.id %>" class="block" aria-labelledby="p4-title">
+        <p class="kicker"><%= c.pillarLabel %> 04</p>
+        <h2 id="p4-title" class="h2"><%- c.p4.title %></h2>
+        <p class="block-lead"><%= c.p4.lead %></p>
+        <ol class="flow">
+          <% c.p4.steps.forEach((s, i) => { %>
+            <li class="flow-step reveal">
+              <span class="flow-bar" style="--level: <%= [0.55, 0.85, 1, 0.35][i] %>" aria-hidden="true"></span>
+              <span class="flow-num">0<%= i + 1 %></span>
+              <h3 class="h3"><%= s.label %></h3>
+              <p class="muted"><%= s.body %></p>
+            </li>
+          <% }) %>
+        </ol>
+      </section>
+
+      <!-- Pillar 5 -->
+      <section id="<%= c.p5.id %>" class="block" aria-labelledby="p5-title">
+        <p class="kicker"><%= c.pillarLabel %> 05</p>
+        <h2 id="p5-title" class="h2"><%- c.p5.title %></h2>
+        <p class="block-lead"><%= c.p5.lead %></p>
+        <ul class="chips">
+          <% c.p5.sectors.forEach((s) => { %><li class="chip"><%= s %></li><% }) %>
+        </ul>
+        <ul class="kpis" aria-label="<%= c.p5.kpiCaption %>">
+          <% c.p5.kpis.forEach((k, i) => { %>
+            <li class="kpi glass reveal tier-<%= i %>">
+              <p class="kpi-tier"><span><%= String(i + 1).padStart(2, '0') %></span><%= k.tier %></p>
+              <ul class="dotlist"><% k.items.forEach((it) => { %><li><%= it %></li><% }) %></ul>
+            </li>
+          <% }) %>
+        </ul>
+      </section>
+
+      <div class="cta-band reveal">
+        <div class="glow glow-cta" aria-hidden="true"></div>
+        <h2 class="h2"><%- c.next.title %></h2>
+        <div class="btn-row center">
+          <a class="btn btn-light" href="<%= pathFor('tool') %>"><%= t.cta.tool %>
+            <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="/js/page-scene.js" defer></script>
+<%- include('../partials/footer') %>

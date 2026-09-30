@@ -1,0 +1,116 @@
+<%- include('../partials/head') %>
+<%- include('../partials/header') %>
+
+<main id="main">
+  <section class="page-hero" aria-labelledby="page-title">
+    <canvas class="page-canvas" data-page-scene data-word="GLOBAL" aria-hidden="true"></canvas>
+    <div class="container narrow center-text">
+      <p class="kicker"><%= c.header.kicker %></p>
+      <h1 id="page-title" class="display display-sm"><%- c.header.title %></h1>
+      <p class="hero-lead"><%- c.header.lead %></p>
+    </div>
+  </section>
+
+  <!-- State ↔ market spectrum -->
+  <section class="section section-tight" aria-labelledby="spectrum-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="kicker"><%= c.spectrum.kicker %></p>
+        <h2 id="spectrum-title" class="h2"><%- c.spectrum.title %></h2>
+      </header>
+      <figure class="spectrum glass reveal">
+        <div class="spectrum-track" aria-hidden="true">
+          <% c.spectrum.points.forEach((p) => { %>
+            <span class="spectrum-point <%= p.below ? 'is-below' : '' %>" style="--pos: <%= p.pos %>%"><span class="spectrum-label"><%= p.name %></span></span>
+          <% }) %>
+          <span class="spectrum-point is-vn" style="--pos: <%= c.spectrum.vn.pos %>%"><span class="spectrum-label"><%= c.spectrum.vn.name %></span></span>
+        </div>
+        <div class="spectrum-ends"><span><%= c.spectrum.left %></span><span><%= c.spectrum.right %></span></div>
+        <figcaption class="spectrum-note">
+          <span class="spectrum-swatch" aria-hidden="true"></span>
+          <span><b><%= c.spectrum.vn.name %>:</b> <%= c.spectrum.vn.note %></span>
+        </figcaption>
+        <ol class="sr-only">
+          <% c.spectrum.points.forEach((p) => { %><li><%= p.name %>: <%= p.pos %>/100</li><% }) %>
+        </ol>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Countries -->
+  <section class="section section-tight" aria-labelledby="countries-title">
+    <div class="container">
+      <h2 id="countries-title" class="sr-only"><%= c.countriesTitle %></h2>
+      <div class="tabs" data-tabs>
+        <div class="tab-list tab-list-4" role="tablist" aria-label="<%= c.countriesTitle %>">
+          <% c.countries.forEach((k, i) => { %>
+            <button class="tab" role="tab" type="button" id="tab-<%= k.id %>" aria-controls="panel-<%= k.id %>"
+                    aria-selected="<%= i === 0 %>" tabindex="<%= i === 0 ? 0 : -1 %>">
+              <%- include('../partials/flag', { code: k.id }) %>
+              <span class="tab-text"><%= k.name %></span>
+            </button>
+          <% }) %>
+        </div>
+        <% c.countries.forEach((k) => { %>
+          <div class="tab-panel country glass" role="tabpanel" id="panel-<%= k.id %>" aria-labelledby="tab-<%= k.id %>" tabindex="0">
+            <p class="country-model"><%= k.model %></p>
+            <ul class="country-stats">
+              <% k.stats.forEach((s) => { %>
+                <li><span class="country-value"><%= s.value %></span><span class="muted"><%= s.label %></span></li>
+              <% }) %>
+            </ul>
+            <div class="country-body <%= k.chart ? 'has-chart' : '' %>">
+              <ol class="timeline-v">
+                <% k.timeline.forEach((ev) => { %>
+                  <li><span class="timeline-year"><%= ev.year %></span><span><%= ev.text %></span></li>
+                <% }) %>
+              </ol>
+              <% if (k.chart) { const max = Math.max(...k.chart.items.map((x) => x.value)); %>
+                <figure class="mini-chart">
+                  <figcaption class="chart-title"><%= k.chart.title %></figcaption>
+                  <div class="bars">
+                    <% k.chart.items.forEach((it) => { %>
+                      <div class="bar-row">
+                        <span class="bar-label"><%= it.label %></span>
+                        <span class="bar-track" aria-hidden="true"><span class="bar-fill is-static" style="--w: <%= it.value / max * 100 %>%"></span></span>
+                        <span class="bar-value"><%= it.value %>%</span>
+                      </div>
+                    <% }) %>
+                  </div>
+                </figure>
+              <% } %>
+            </div>
+            <p class="src country-src"><%= t.sourceLabel %>: <% k.sources.forEach((sc, j) => { %><% if (j) { %>; <% } %><% if (sc.url) { %><a href="<%= sc.url %>" target="_blank" rel="noopener"><%= sc.label %><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a><% } else { %><%= sc.label %><% } %><% }) %></p>
+          </div>
+        <% }) %>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lessons -->
+  <section class="section section-glow" aria-labelledby="lessons-title">
+    <div class="glow glow-band" aria-hidden="true"></div>
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="kicker"><%= c.lessons.kicker %></p>
+        <h2 id="lessons-title" class="h2"><%- c.lessons.title %></h2>
+      </header>
+      <ol class="roadmap">
+        <% c.lessons.items.forEach((l, i) => { %>
+          <li class="roadmap-step reveal">
+            <span class="roadmap-num">0<%= i + 1 %></span>
+            <h3 class="h3"><%= l.title %></h3>
+            <p class="muted"><%= l.body %></p>
+          </li>
+        <% }) %>
+      </ol>
+      <div class="center">
+        <a class="btn btn-light" href="<%= pathFor('strategy') %>"><%= t.cta.strategy %>
+          <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="/js/page-scene.js" defer></script>
+<%- include('../partials/footer') %>

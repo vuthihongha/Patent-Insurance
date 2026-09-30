@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "title": "Chiến lược Bảo hiểm Sáng chế",
+    "description": "Bảo hiểm sáng chế: chia sẻ rủi ro, thúc đẩy thương mại hóa sáng chế và hệ sinh thái đổi mới sáng tạo Việt Nam."
+  },
+  "hero": {
+    "eyebrow": "Đổi mới sáng tạo · Việt Nam",
+    "title": "Chiến lược<br><em>Bảo hiểm Sáng chế</em>",
+    "lead": "Chia sẻ rủi ro cho sáng chế,<br>khơi thông dòng chảy đổi mới sáng tạo của Việt Nam.",
+    "tag": [
+      "Ý tưởng",
+      "Sáng chế",
+      "Hệ sinh thái"
+    ],
+    "badge": {
+      "new": "2026",
+      "text": "Đề tài NCKH sinh viên · Trường ĐH Luật Hà Nội"
+    },
+    "secondary": "Tự đánh giá doanh nghiệp",
+    "checks": [
+      "Song ngữ Việt – Anh",
+      "Miễn phí",
+      "Ẩn danh"
+    ],
+    "primary": "Khám phá chiến lược",
+    "video": {
+      "label": "Xem video",
+      "meta": "1 phút 17 giây",
+      "close": "Đóng video"
+    },
+    "card": {
+      "kicker": "Công cụ",
+      "title": "Tự đánh giá doanh nghiệp",
+      "body": "8 câu hỏi · khoảng 2 phút"
+    },
+    "features": [
+      {
+        "icon": "shield",
+        "value": "03",
+        "label": "Sản phẩm bảo hiểm"
+      },
+      {
+        "icon": "globe",
+        "value": "04",
+        "label": "Mô hình quốc tế"
+      },
+      {
+        "icon": "handshake",
+        "value": "05",
+        "label": "Chuyên gia phỏng vấn"
+      },
+      {
+        "icon": "link",
+        "value": "VI · EN",
+        "label": "Song ngữ"
+      }
+    ],
+    "vertical": "Patent · Insurance · Strategy"
+  },
+  "problem": {
+    "eyebrow": "Nghịch lý",
+    "title": "Sáng chế tăng nhanh,<br>thương mại hóa <em>vẫn chậm</em>",
+    "stats": [
+      {
+        "value": "+36%",
+        "label": "Đơn sáng chế của chủ thể Việt Nam năm 2025",
+        "source": {
+          "label": "Cục Sở hữu trí tuệ, qua VnEconomy (01/2026)",
+          "url": "https://vneconomy.vn/so-don-dang-ky-sang-che-cua-ca-nhan-to-chuc-viet-nam-tang-36.htm"
+        }
+      },
+      {
+        "value": "+32,4%",
+        "label": "Đơn sáng chế của chủ thể Việt Nam, 6 tháng đầu năm 2026",
+        "source": {
+          "label": "Bộ Khoa học và Công nghệ, qua Báo Tuyên Quang (07/2026)",
+          "url": "https://baotuyenquang.com.vn/khoa-hoc-cong-nghe/202607/thuong-mai-hoa-tai-san-tri-tue-van-la-diem-nghen-can-tiep-tuc-thao-go-4e96406/"
+        }
+      },
+      {
+        "value": "3.270+",
+        "label": "Vụ xâm phạm quyền SHTT bị phát hiện trong 6 tháng đầu năm 2025",
+        "source": {
+          "label": "VnEconomy (08/2025)",
+          "url": "https://vneconomy.vn/so-huu-tri-tue-la-la-chan-de-doanh-nghiep-viet-giu-suc-canh-tranh.htm"
+        }
+      }
+    ],
+    "chartTitle": "Tỷ lệ sáng chế được thương mại hóa (%)",
+    "chartLabels": [
+      "Việt Nam (2025)",
+      "Trung bình toàn cầu",
+      "Nước phát triển",
+      "Mục tiêu Việt Nam 2030"
+    ],
+    "chartValues": [
+      0.1,
+      5,
+      10,
+      10
+    ],
+    "chartNote": "Thấp hơn trung bình toàn cầu 50 lần",
+    "chartDisplay": [
+      "0,1%",
+      "5%",
+      "10%",
+      "8–10%"
+    ],
+    "chartSource": {
+      "label": "Sở KH&CN Nghệ An (2025); mục tiêu 2030: Bộ KH&CN, qua Dân trí (05/2025)",
+      "url": "https://ngheandost.gov.vn/hoat-dong-khcn/viet-nam-co-22-san-giao-dich-cong-nghe-ty-le-thuong-mai-hoa-sang-che-con-thap-8865.html"
+    }
+  },
+  "solution": {
+    "eyebrow": "Giải pháp",
+    "title": "Bảo hiểm đồng hành <em>suốt vòng đời</em> sáng chế",
+    "products": [
+      {
+        "icon": "file",
+        "stage": "Xác lập quyền",
+        "name": "Bảo hiểm cấp phép",
+        "body": "Bù đắp chi phí đã bỏ ra nếu đơn không được cấp văn bằng bảo hộ."
+      },
+      {
+        "icon": "shield",
+        "stage": "Khai thác",
+        "name": "Bảo hiểm trách nhiệm xâm phạm",
+        "body": "Chi trả khi doanh nghiệp bị cáo buộc xâm phạm ngoài ý muốn."
+      },
+      {
+        "icon": "scale",
+        "stage": "Thực thi quyền",
+        "name": "Bảo hiểm chi phí pháp lý",
+        "body": "Chi trả luật sư, án phí khi khởi kiện hoặc bị kiện."
+      }
+    ]
+  },
+  "strategy": {
+    "eyebrow": "Lộ trình",
+    "title": "Ba giai đoạn <em>hình thành</em> thị trường",
+    "phases": [
+      {
+        "num": "01",
+        "name": "Khởi động",
+        "body": "Thí điểm có kiểm soát tại Hà Nội và TP. Hồ Chí Minh"
+      },
+      {
+        "num": "02",
+        "name": "Củng cố",
+        "body": "Mở rộng phạm vi bảo hiểm, chuẩn hóa hợp đồng"
+      },
+      {
+        "num": "03",
+        "name": "Phát triển chiều sâu",
+        "body": "Gắn bảo hiểm với giá trị kinh tế của sáng chế"
+      }
+    ]
+  },
+  "international": {
+    "eyebrow": "Quốc tế",
+    "title": "Đã được <em>kiểm chứng</em> trên thế giới",
+    "cases": [
+      {
+        "flag": "cn",
+        "country": "Trung Quốc",
+        "value": "5,39 tỷ NDT",
+        "label": "số tiền bảo hiểm cho 472 doanh nghiệp trong chương trình thí điểm tại Bắc Kinh",
+        "source": {
+          "label": "Chu Lập Quyền, Tạp chí Tài chính Trung Quốc, số 15/2023",
+          "url": ""
+        }
+      },
+      {
+        "flag": "us",
+        "country": "Hoa Kỳ",
+        "value": "1–5%",
+        "label": "mức phí phổ biến trên giá trị được bảo hiểm",
+        "source": {
+          "label": "Lanjouw & Schankerman (2001, 2004)",
+          "url": ""
+        }
+      },
+      {
+        "flag": "eu",
+        "country": "Liên minh châu Âu",
+        "value": "2007",
+        "label": "Đan Mạch ra mắt chương trình PatentEnforcer hỗ trợ SMEs",
+        "source": {
+          "label": "Ủy ban châu Âu, Making IPR work for SMEs (2014)",
+          "url": ""
+        }
+      },
+      {
+        "flag": "jp",
+        "country": "Nhật Bản",
+        "value": "1/2",
+        "label": "phí bảo hiểm tố tụng SHTT ở nước ngoài được Nhà nước hỗ trợ cho SMEs (từ 2016)",
+        "source": {
+          "label": "JPO, qua EU Business in Japan (2016)",
+          "url": "https://www.eubusinessinjapan.eu/library/news/overseas-ip-litigation-insurance-scheme-smes"
+        }
+      }
+    ]
+  },
+  "action": {
+    "title": "Doanh nghiệp của bạn cần <em>loại bảo hiểm</em> nào?",
+    "note": "Khoảng 2 phút"
+  },
+  "faq": {
+    "kicker": "Hỏi đáp",
+    "title": "Doanh nghiệp <em>thường hỏi</em>",
+    "items": [
+      {
+        "q": "Hiện đã mua được bảo hiểm sáng chế tại Việt Nam chưa?",
+        "a": "Chưa. Thị trường chưa có sản phẩm bảo hiểm chuyên biệt cho sáng chế và pháp luật chưa có quy định riêng. Đề tài đề xuất lộ trình để hình thành thị trường này."
+      },
+      {
+        "q": "Doanh nghiệp nhỏ có tham gia được không?",
+        "a": "Được. Đề tài đề xuất sàng lọc theo năng lực công nghệ và hoạt động đổi mới sáng tạo, không theo quy mô. Nghị định 268/2025/NĐ-CP đã mở rộng tư cách doanh nghiệp KH&CN theo tiêu chí đổi mới sáng tạo."
+      },
+      {
+        "q": "Bảo hiểm có chi trả khi cố ý xâm phạm quyền của người khác không?",
+        "a": "Không. Hành vi cố ý xâm phạm và gian lận bị loại trừ, nên bảo hiểm không làm giảm tính răn đe của pháp luật sở hữu trí tuệ."
+      },
+      {
+        "q": "Phí bảo hiểm khoảng bao nhiêu?",
+        "a": "Việt Nam chưa có biểu phí. Tại Hoa Kỳ, phí thường từ 1% đến 5% giá trị được bảo hiểm. Đề tài đề xuất Nhà nước hỗ trợ một phần phí trong giai đoạn thí điểm."
+      },
+      {
+        "q": "Khi nào nên tham gia bảo hiểm?",
+        "a": "Bảo hiểm cấp phép phù hợp từ khi nộp đơn. Với các sản phẩm còn lại, đề tài đề xuất tham gia ngay khi được cấp bằng, lúc chưa phát sinh nguy cơ kiện tụng cụ thể."
+      },
+      {
+        "q": "Bảo hiểm sáng chế có bắt buộc không?",
+        "a": "Không. Đề tài đề xuất cơ chế tự nguyện có hỗ trợ của Nhà nước. Chỉ khi thị trường đủ lớn mới cân nhắc bán bắt buộc với một số ngành rủi ro cao."
+      }
+    ]
+  },
+  "videoSection": {
+    "kicker": "Video giới thiệu",
+    "title": "Website <em>hoạt động</em> ra sao?",
+    "lead": "Một vòng tham quan: từ trang chủ,<br>công cụ tự đánh giá đến kinh nghiệm quốc tế."
+  }
+}

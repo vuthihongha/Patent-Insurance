@@ -1,0 +1,159 @@
+<%- include('../partials/head') %>
+<%- include('../partials/header') %>
+
+<main id="main">
+  <section class="page-hero" aria-labelledby="page-title">
+    <canvas class="page-canvas" data-page-scene data-word="INSURANCE" aria-hidden="true"></canvas>
+    <div class="container narrow center-text">
+      <p class="kicker"><%= c.header.kicker %></p>
+      <h1 id="page-title" class="display display-sm"><%- c.header.title %></h1>
+      <p class="hero-lead"><%- c.header.lead %></p>
+    </div>
+  </section>
+
+  <!-- Risk across the lifecycle -->
+  <section class="section section-tight" aria-labelledby="risk-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="kicker"><%= c.risk.kicker %></p>
+        <h2 id="risk-title" class="h2"><%- c.risk.title %></h2>
+      </header>
+      <ol class="timeline-h">
+        <% c.risk.stages.forEach((s, i) => { %>
+          <li class="timeline-h-item reveal">
+            <span class="timeline-h-dot" aria-hidden="true"></span>
+            <span class="timeline-h-num">0<%= i + 1 %></span>
+            <h3 class="h3"><%= s.label %></h3>
+            <p class="muted"><%= s.body %></p>
+          </li>
+        <% }) %>
+      </ol>
+
+      <h3 class="kicker sub-title center-kicker"><%= c.risk.traitsTitle %></h3>
+      <ul class="cards cards-3">
+        <% c.risk.traits.forEach((tr, i) => { %>
+          <li class="card glass reveal">
+            <span class="card-index">0<%= i + 1 %></span>
+            <h3 class="h3"><%= tr.title %></h3>
+            <p class="muted"><%= tr.body %></p>
+          </li>
+        <% }) %>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section section-glow" aria-labelledby="traits-title">
+    <div class="glow glow-band" aria-hidden="true"></div>
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="kicker"><%= c.traits.kicker %></p>
+        <h2 id="traits-title" class="h2"><%- c.traits.title %></h2>
+      </header>
+      <ul class="cards cards-4">
+        <% c.traits.items.forEach((it) => { %>
+          <li class="card glass reveal">
+            <span class="card-icon" aria-hidden="true"><svg class="icon"><use href="#i-<%= it.icon %>"/></svg></span>
+            <h3 class="h3"><%= it.title %></h3>
+            <p class="muted"><%= it.body %></p>
+          </li>
+        <% }) %>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Comparison -->
+  <section class="section" aria-labelledby="compare-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="kicker"><%= c.compare.kicker %></p>
+        <h2 id="compare-title" class="h2"><%- c.compare.title %></h2>
+      </header>
+      <div class="compare glass reveal" role="region" aria-labelledby="compare-title" tabindex="0">
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <td></td>
+              <% c.compare.products.forEach((p, i) => { %>
+                <th scope="col"><span class="compare-phase"><%= c.compare.phases[i] %></span><%= p %></th>
+              <% }) %>
+            </tr>
+          </thead>
+          <tbody>
+            <% c.compare.rows.forEach((row) => { %>
+              <tr>
+                <th scope="row"><%= row.label %></th>
+                <% row.cells.forEach((cell) => { %><td><%= cell %></td><% }) %>
+              </tr>
+            <% }) %>
+          </tbody>
+        </table>
+      </div>
+      <p class="compare-note reveal"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg><span><%= c.compare.note %></span></p>
+    </div>
+  </section>
+
+  <!-- Illustrative scenarios -->
+  <section class="section" aria-labelledby="scenarios-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="kicker"><%= c.scenarios.kicker %></p>
+        <h2 id="scenarios-title" class="h2"><%- c.scenarios.title %></h2>
+      </header>
+      <ul class="scenarios">
+        <% c.scenarios.items.forEach((sc, n) => { %>
+          <li class="scenario glass reveal">
+            <%- include('../partials/scenario-art', { n }) %>
+            <p class="scenario-who"><%- include('../partials/flag', { code: sc.flag }) %><%= sc.who %></p>
+            <h3 class="h3"><%= sc.title %></h3>
+            <p class="scenario-product"><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg><%= sc.product %></p>
+            <div class="scenario-block">
+              <p class="scenario-label"><%= c.scenarios.paysLabel %></p>
+              <ul class="checklist-sm"><% sc.pays.forEach((x) => { %><li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><%= x %></li><% }) %></ul>
+            </div>
+            <div class="scenario-block is-excluded">
+              <p class="scenario-label"><%= c.scenarios.excludesLabel %></p>
+              <p class="muted"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg><%= sc.excludes %></p>
+            </div>
+          </li>
+        <% }) %>
+      </ul>
+      <p class="muted small center-text scenario-note"><%= c.scenarios.note %></p>
+    </div>
+  </section>
+
+  <!-- Doubts -->
+  <section class="section" aria-labelledby="myths-title">
+    <div class="container narrow">
+      <header class="section-head reveal">
+        <p class="kicker"><%= c.myths.kicker %></p>
+        <h2 id="myths-title" class="h2"><%- c.myths.title %></h2>
+      </header>
+      <div class="accordion">
+        <% c.myths.items.forEach((m, i) => { %>
+          <details class="acc glass reveal" <% if (i === 0) { %>open<% } %>>
+            <summary><span class="acc-num">0<%= i + 1 %></span><span class="acc-q"><%= m.q %></span><span class="acc-icon" aria-hidden="true"></span></summary>
+            <p class="acc-a"><%= m.a %></p>
+          </details>
+        <% }) %>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="next-title">
+    <div class="container">
+      <div class="cta-band reveal">
+        <div class="glow glow-cta" aria-hidden="true"></div>
+        <h2 id="next-title" class="h2"><%- c.next.title %></h2>
+        <div class="btn-row center">
+          <a class="btn btn-light" href="<%= pathFor('tool') %>"><%= t.cta.tool %>
+            <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-ghost" href="<%= pathFor('strategy') %>"><%= t.cta.strategy %></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="/js/page-scene.js" defer></script>
+<%- include('../partials/footer') %>

@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "title": "Bảo hiểm sáng chế là gì? | Chiến lược Bảo hiểm Sáng chế",
+    "description": "Khái niệm, đặc điểm và 03 sản phẩm bảo hiểm sáng chế đề xuất cho Việt Nam: bảo hiểm cấp phép, chi phí pháp lý và trách nhiệm xâm phạm."
+  },
+  "header": {
+    "kicker": "Bảo hiểm sáng chế",
+    "title": "Chuyển giao và <em>phân tán</em><br>rủi ro sáng chế",
+    "lead": "Doanh nghiệp bảo hiểm cùng gánh rủi ro pháp lý,<br>để nhà sáng chế yên tâm đổi mới."
+  },
+  "risk": {
+    "kicker": "Rủi ro sáng chế",
+    "title": "Rủi ro có mặt ở <em>mọi giai đoạn</em>",
+    "stages": [
+      {
+        "label": "Trước khi cấp bằng",
+        "body": "Đơn bị từ chối, chi phí thành chi phí chìm."
+      },
+      {
+        "label": "Sau khi cấp bằng",
+        "body": "Văn bằng có thể bị yêu cầu hủy bỏ, tuyên bố vô hiệu."
+      },
+      {
+        "label": "Trong khai thác",
+        "body": "Bị kiện xâm phạm hoặc bị người khác xâm phạm."
+      },
+      {
+        "label": "Sau khi hết hiệu lực",
+        "body": "Rủi ro pháp lý vẫn có thể kéo dài sau khi quyền chấm dứt."
+      }
+    ],
+    "traitsTitle": "Vì sao sáng chế dễ tổn thương?",
+    "traits": [
+      {
+        "title": "Quyền phủ định",
+        "body": "Bằng sáng chế cho quyền ngăn cấm người khác, không bảo đảm quyền tự khai thác."
+      },
+      {
+        "title": "Có thể bị vô hiệu",
+        "body": "Dù đã qua thẩm định, văn bằng vẫn có thể bị hủy bất cứ lúc nào."
+      },
+      {
+        "title": "Pháp lý đan xen kỹ thuật",
+        "body": "Phạm vi bảo hộ phụ thuộc cách diễn giải yêu cầu bảo hộ."
+      }
+    ]
+  },
+  "traits": {
+    "kicker": "Đặc điểm",
+    "title": "Khác gì bảo hiểm <em>thông thường?</em>",
+    "items": [
+      {
+        "icon": "shield",
+        "title": "Bảo hiểm phi nhân thọ",
+        "body": "Xác lập bằng hợp đồng, vận hành theo cơ chế bảo hiểm dân sự."
+      },
+      {
+        "icon": "file",
+        "title": "Đối tượng là tài sản vô hình",
+        "body": "Rủi ro mang tính kỹ thuật cao, khó định lượng và định phí."
+      },
+      {
+        "icon": "scale",
+        "title": "Trọng tâm là rủi ro xâm phạm",
+        "body": "Gồm cả phòng vệ khi bị kiện và chủ động khởi kiện bảo vệ quyền."
+      },
+      {
+        "icon": "database",
+        "title": "Hỗ trợ tài chính",
+        "body": "Chi trả chi phí giải quyết tranh chấp, thay vì khôi phục tài sản như bảo hiểm truyền thống."
+      }
+    ]
+  },
+  "compare": {
+    "kicker": "03 sản phẩm đề xuất",
+    "title": "So sánh <em>03 sản phẩm</em>",
+    "products": [
+      "Bảo hiểm cấp phép",
+      "Bảo hiểm chi phí pháp lý (thực thi quyền)",
+      "Bảo hiểm trách nhiệm xâm phạm"
+    ],
+    "phases": [
+      "Giai đoạn 1 – 2",
+      "Giai đoạn 1 – 2",
+      "Giai đoạn 3"
+    ],
+    "rows": [
+      {
+        "label": "Bản chất",
+        "cells": [
+          "Rủi ro trong giai đoạn nộp và xử lý đơn",
+          "Chi phí kiện tụng, thực thi quyền",
+          "Trách nhiệm dân sự"
+        ]
+      },
+      {
+        "label": "Người được bảo hiểm",
+        "cells": [
+          "Người nộp đơn sáng chế",
+          "Nguyên đơn hoặc bị đơn trong tranh chấp",
+          "Nhà sản xuất, phân phối, bên khai thác công nghệ"
+        ]
+      },
+      {
+        "label": "Sự kiện bảo hiểm",
+        "cells": [
+          "Đơn không được cấp văn bằng",
+          "Khởi kiện hoặc bị kiện về xâm phạm",
+          "Bị bên thứ ba cáo buộc xâm phạm"
+        ]
+      },
+      {
+        "label": "Chi trả",
+        "cells": [
+          "Chi phí nộp và xử lý đơn",
+          "Luật sư, tố tụng, chi phí pháp lý khác",
+          "Chi phí kiện tụng, phản tố, tiền bồi thường thiệt hại"
+        ]
+      },
+      {
+        "label": "Mở rộng",
+        "cells": [
+          "Giảm phí nếu mua tiếp sau khi được cấp bằng",
+          "Cảnh báo sáng chế, FTO, phân tích đối thủ",
+          "Tranh chấp về hiệu lực, phạm vi bảo hộ"
+        ]
+      },
+      {
+        "label": "Loại trừ",
+        "cells": [
+          "Gian lận, khai sai thông tin",
+          "Vi phạm cố ý, gian lận",
+          "Xâm phạm cố ý, tiền phạt hành chính, hành vi phạm tội"
+        ]
+      },
+      {
+        "label": "Kinh nghiệm",
+        "cells": [
+          "Anh, Trung Quốc",
+          "Bắc Kinh: hỗ trợ tranh chấp ở nước ngoài",
+          "Nhật Bản: chỉ bồi thường sự cố ngẫu nhiên"
+        ]
+      }
+    ],
+    "note": "Giai đoạn 1 khởi động hai sản phẩm đầu ở mức cơ bản. Giai đoạn 2 không thêm sản phẩm mới mà mở rộng phạm vi và nâng mức bảo vệ của chính hai sản phẩm này. Giai đoạn 3 mới triển khai bảo hiểm trách nhiệm xâm phạm."
+  },
+  "myths": {
+    "kicker": "Băn khoăn thường gặp",
+    "title": "Bảo hiểm sáng chế có <em>khả thi?</em>",
+    "items": [
+      {
+        "q": "Rủi ro sáng chế quá bất định để bảo hiểm?",
+        "a": "Rủi ro xuất hiện tại các điểm nút có thủ tục rõ ràng và đã được phân thành 5 nhóm: nội tại, môi trường, đổi mới, bị yêu cầu cấp phép, NPE. Đây là rủi ro có thể nhận diện và quản lý."
+      },
+      {
+        "q": "Không thể định phí?",
+        "a": "Doanh nghiệp bảo hiểm có thể dùng chỉ báo tương đương như tần suất tranh chấp, thời gian xử lý, mức bồi thường trung bình. Rủi ro cũng có thể chia nhỏ thành nhiều lớp và phân tán qua tái bảo hiểm."
+      },
+      {
+        "q": "Phí quá cao với SMEs?",
+        "a": "Nhà nước hỗ trợ phí giai đoạn đầu như Nhật Bản, Trung Quốc. Sản phẩm thiết kế theo tầng để SMEs mua gói nhỏ. Phí sẽ giảm dần khi dữ liệu thị trường tích lũy."
+      }
+    ]
+  },
+  "next": {
+    "title": "Loại nào <em>phù hợp</em> với bạn?"
+  },
+  "scenarios": {
+    "kicker": "Tình huống minh họa",
+    "title": "Bảo hiểm <em>vận hành</em> ra sao?",
+    "note": "Tình huống giả định, minh họa theo các sản phẩm đề tài đề xuất. Mức chi trả thực tế phụ thuộc hợp đồng bảo hiểm.",
+    "paysLabel": "Bảo hiểm chi trả",
+    "excludesLabel": "Không chi trả",
+    "items": [
+      {
+        "flag": "vn",
+        "who": "Startup AI · Hà Nội",
+        "title": "Đơn sáng chế bị từ chối sau thời gian thẩm định",
+        "product": "Bảo hiểm cấp phép",
+        "pays": [
+          "Chi phí tra cứu, soạn thảo hồ sơ",
+          "Phí nộp và theo đuổi đơn"
+        ],
+        "excludes": "Hồ sơ khai sai hoặc gian lận"
+      },
+      {
+        "flag": "vn",
+        "who": "Doanh nghiệp bán dẫn · TP. Hồ Chí Minh",
+        "title": "Bị đối thủ kiện xâm phạm khi xuất khẩu sang Hoa Kỳ",
+        "product": "Bảo hiểm chi phí pháp lý · trách nhiệm xâm phạm",
+        "pays": [
+          "Chi phí luật sư, tố tụng, phản tố",
+          "Tiền bồi thường nếu xâm phạm ngoài ý muốn (giai đoạn 3)"
+        ],
+        "excludes": "Xâm phạm cố ý, tiền phạt hành chính"
+      },
+      {
+        "flag": "vn",
+        "who": "Viện nghiên cứu · công nghệ sinh học",
+        "title": "Phát hiện doanh nghiệp khác dùng sáng chế của mình",
+        "product": "Bảo hiểm chi phí pháp lý (thực thi quyền)",
+        "pays": [
+          "Chi phí điều tra, thu thập chứng cứ",
+          "Chi phí luật sư để khởi kiện"
+        ],
+        "excludes": "Chi phí ngoài phạm vi hợp đồng"
+      }
+    ]
+  }
+}

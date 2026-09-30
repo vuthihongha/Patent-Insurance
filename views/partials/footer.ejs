@@ -1,0 +1,44 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-about">
+      <div class="footer-brand">
+        <img src="/images/hlu-logo.webp" alt="<%= t.footer.school %>" width="56" height="56" loading="lazy">
+        <div>
+          <p class="footer-title"><%= t.siteName %></p>
+          <p class="muted"><%= t.footer.school %></p>
+        </div>
+      </div>
+      <p class="muted small"><%= t.footer.about %></p>
+    </div>
+
+    <div>
+      <h2 class="footer-heading"><%= t.footer.explore %></h2>
+      <ul class="footer-links">
+        <% ['about', 'insurance', 'strategy', 'international', 'legal', 'tool', 'experts', 'library'].forEach((key) => { %>
+          <li><a href="<%= pathFor(key) %>"><%= t.nav[key] %></a></li>
+        <% }) %>
+      </ul>
+    </div>
+
+    <div>
+      <h2 class="footer-heading"><%= t.footer.contactLabel %></h2>
+      <dl class="footer-people">
+        <dt><%= t.footer.authorLabel %></dt><dd><%= t.footer.author %></dd>
+        <dt><%= t.footer.advisorLabel %></dt><dd><%= t.footer.advisor %></dd>
+      </dl>
+      <a class="footer-mail" href="mailto:vuthihongha.work@gmail.com">
+        <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>vuthihongha.work@gmail.com
+      </a>
+    </div>
+  </div>
+  <p class="footer-word" aria-hidden="true">PATENT</p>
+  <div class="container footer-bottom">
+    <p class="small muted"><%= t.footer.disclaimer %> <%= t.updated %>. <a class="footer-inline" href="<%= pathFor('privacy') %>"><%= t.privacyLink %></a></p>
+    <p class="small muted">© <%= year %>. VTHH</p>
+  </div>
+</footer>
+<script src="/js/main.js" defer></script>
+<script src="/js/assistant.js" defer></script>
+<% if (page.key === 'home' || page.key === 'tool') { %><script src="/js/interest.js" defer></script><% } %>
+</body>
+</html>

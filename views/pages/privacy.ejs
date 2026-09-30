@@ -1,0 +1,29 @@
+<%- include('../partials/head') %>
+<%- include('../partials/header') %>
+
+<main id="main">
+  <section class="page-hero page-hero-short" aria-labelledby="page-title">
+    <canvas class="page-canvas" data-page-scene data-word="PRIVACY" aria-hidden="true"></canvas>
+    <div class="container narrow center-text">
+      <p class="kicker"><%= c.header.kicker %></p>
+      <h1 id="page-title" class="display display-sm"><%- c.header.title %></h1>
+      <p class="hero-lead"><%- c.header.lead %></p>
+    </div>
+  </section>
+
+  <section class="section section-tight" aria-label="<%= c.header.kicker %>">
+    <div class="container narrow">
+      <div class="policy">
+        <% c.sections.forEach((sec, i) => { %>
+          <section class="policy-block glass" aria-labelledby="policy-<%= i %>">
+            <h2 id="policy-<%= i %>" class="h3"><span class="policy-n">0<%= i + 1 %></span><%= sec.title %></h2>
+            <ul class="dotlist"><% sec.items.forEach((it) => { %><li><%= it %></li><% }) %></ul>
+          </section>
+        <% }) %>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="/js/page-scene.js" defer></script>
+<%- include('../partials/footer') %>

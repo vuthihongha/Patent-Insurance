@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "title": "Legal framework | Patent Insurance Strategy",
+    "description": "Vietnamese law on patent insurance today, the barriers, and proposed reforms across five areas of law."
+  },
+  "header": {
+    "kicker": "Legal framework",
+    "title": "A <em>gap</em><br>waiting to be filled",
+    "lead": "Vietnam has no dedicated patent insurance<br>product on the market yet."
+  },
+  "status": {
+    "kicker": "Current state",
+    "title": "Spanning <em>six areas</em> of law",
+    "legend": {
+      "ok": "Foundation in place",
+      "gap": "Missing"
+    },
+    "items": [
+      {
+        "area": "Intellectual property",
+        "law": "IP Law amended 2025 · Decree 100/2026",
+        "state": "gap",
+        "note": "An early draft mentioned “insurance products” but it was not adopted."
+      },
+      {
+        "area": "Insurance business",
+        "law": "Insurance Business Law 2022 (am. 2025) · Decree 46/2023",
+        "state": "ok",
+        "note": "Allows new non-life products to be designed."
+      },
+      {
+        "area": "Civil law",
+        "law": "Civil Code 2015",
+        "state": "ok",
+        "note": "Property rights can be pledged as security."
+      },
+      {
+        "area": "Finance",
+        "law": "Price Law 2023 · Circular 37/2024/TT-BTC",
+        "state": "gap",
+        "note": "No specific guidance on patent valuation."
+      },
+      {
+        "area": "Data",
+        "law": "Data Law 2024",
+        "state": "ok",
+        "note": "Rights to data are property rights."
+      },
+      {
+        "area": "Innovation",
+        "law": "Law on S&T and Innovation 2025 · High Technology Law 2025",
+        "state": "ok",
+        "note": "Risk-acceptance mechanism for innovation."
+      }
+    ]
+  },
+  "barriers": {
+    "kicker": "Barriers",
+    "title": "Five <em>root causes</em>",
+    "items": [
+      {
+        "icon": "scale",
+        "title": "Law",
+        "body": "No financing or risk-sharing mechanism for patents; the draft on insurance products was not adopted."
+      },
+      {
+        "icon": "network",
+        "title": "Market",
+        "body": "Weak patent commercialisation and intermediaries such as valuers and brokers."
+      },
+      {
+        "icon": "database",
+        "title": "Data",
+        "body": "Patent risk data is fragmented and unconnected."
+      },
+      {
+        "icon": "handshake",
+        "title": "Capacity",
+        "body": "Insurers lack experience; businesses lack awareness."
+      },
+      {
+        "icon": "file",
+        "title": "Nature of patents",
+        "body": "Patent value is hard to predict and quantify."
+      }
+    ]
+  },
+  "proposals": {
+    "kicker": "Recommendations",
+    "title": "Reforms across <em>five areas</em>",
+    "items": [
+      {
+        "area": "Civil law",
+        "points": [
+          "Amend Art. 115 to clarify the nature of property rights",
+          "Add judicial oversight to Art. 303 for high-value collateral",
+          "Amend Art. 306: independent valuation at enforcement"
+        ]
+      },
+      {
+        "area": "IP law",
+        "points": [
+          "Recognise support and loan guarantees backed by IP rights",
+          "Define core products: infringement liability, application, litigation costs",
+          "Encourage uptake; consider mandatory cover for high-value exploitation"
+        ]
+      },
+      {
+        "area": "Finance & commerce",
+        "points": [
+          "Patent valuation guidance based on IVS 210",
+          "Assess scope, term, useful life and legal risk"
+        ]
+      },
+      {
+        "area": "Data law",
+        "points": [
+          "Define what is traded on data markets",
+          "Tiered property rights along the data lifecycle",
+          "A registry for data property rights"
+        ]
+      },
+      {
+        "area": "Innovation law",
+        "points": [
+          "Consistency across the legal system",
+          "Cut unnecessary procedures",
+          "Risk-based regulation"
+        ]
+      }
+    ]
+  },
+  "valuation": {
+    "kicker": "Patent valuation",
+    "title": "Vietnam vs. <em>international standards</em>",
+    "head": [
+      "Criterion",
+      "Circular 37/2024",
+      "IVS 210"
+    ],
+    "rows": [
+      {
+        "label": "Asset classification",
+        "vn": "Generic “intangible assets”",
+        "ivs": "Detailed by right and scope of right"
+      },
+      {
+        "label": "Market data",
+        "vn": "General principles",
+        "ivs": "Transparent, verifiable; royalties and licence deals preferred"
+      },
+      {
+        "label": "Income approach",
+        "vn": "General principles",
+        "ivs": "Relief-from-royalty, excess earnings, MPEEM, with-and-without"
+      },
+      {
+        "label": "Useful life",
+        "vn": "High-level only",
+        "ivs": "Legal, economic, technological and competitive analysis"
+      },
+      {
+        "label": "Legal risk",
+        "vn": "No guidance",
+        "ivs": "Mandatory: invalidity, disputes, third-party dependency"
+      }
+    ]
+  },
+  "mandatory": {
+    "kicker": "Voluntary or mandatory?",
+    "title": "<em>Step</em> by step",
+    "steps": [
+      {
+        "label": "Now",
+        "body": "Voluntary, with partial State premium support"
+      },
+      {
+        "label": "Once the market matures",
+        "body": "Semi-mandatory for high-risk sectors"
+      }
+    ]
+  }
+}
